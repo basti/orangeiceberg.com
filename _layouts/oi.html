@@ -1,0 +1,131 @@
+---
+navigation:
+- pretty_url: /
+  url: /index.html
+  title: Home
+  text: Starting page
+- pretty_url: /about
+  url: /about/index.html
+  title: About
+  text: Who am I?
+- pretty_url: /what-i-do
+  url: /what-i-do/index.html
+  title: What I do
+  text: Services
+- pretty_url: /portfolio
+  url: /portfolio/index.html
+  title: Portfolio
+  text: What I did
+- pretty_url: /contact
+  url: /contact/index.html
+  title: Contact
+  text: Lets talk
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+  <title>{{ page.title }} - Orange Iceberg Web Development</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="screen" charset="utf-8" />
+  <script type="text/javascript" src="/javascripts/external-links.js"></script>
+</head>
+<body>
+<div id="fake-footer-bg">
+  <div id="warper" class="clearfix">
+    <div id="header">
+      <h1><a href="/">Orange Iceberg - Discovering hidden depths of web applications. Creating great web apps using Ruby on Rails and PHP. All done by one freelance web developer.</a></h1>
+      <ul id="navigation">
+        {% for link in page.navigation %}
+          <li>
+            <a href="{{link.pretty_url}}" title="{{link.title}}" {% if page.url == link.url %}class="current"{% endif %}>
+              <strong>{{link.title}}</strong>
+              {{link.text}}
+            </a>
+          </li>
+        {% endfor %}
+        <li><a href="http://icebergist.com"><strong>Blog</strong>My thoughs</a></li>
+      </ul>
+    </div>
+    <div id="content" class="clearfix">
+      <div id="main">
+        <h2 class="notop">{{ page.title }}</h2>
+        {{ content }}
+      </div>
+
+      <div id="sidebar">
+        <h2>About Orange Iceberg</h2>
+        <p class="clearfix">
+          <img src="/images/slobodan-110x110.gif" width="86" height="86" alt="Slobodan Kovacevic" />
+          Orange Iceberg web development is a sole proprietorship of Slobodan Kovačević.
+          Which is just a fancy way of saying that I freelance under this name.
+          Find out more about <a href="/what-i-do">what I do</a> and <a href="/contact">how you can hire me</a>.
+        </p>
+
+        <div class="hr"></div>
+
+        <h2>Navigate</h2>
+        <ul class="social">
+          {% for link in page.navigation %}
+            <li>
+              <a href="{{link.pretty_url}}" title="{{link.title}}" {% if page.url == link.url %}class="current_page_item"{% endif %}>
+                {{link.title}}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <div class="hr"></div>
+
+        <h2>More info</h2>
+        <dl class="more">
+          <dt><a href="http://icebergist.com" rel="me" title="Orange Iceberg blog">Icebergist</a></dt>
+          <dd>Orange Iceberg blog</dd>
+
+          <dt><a href="http://slobodankovacevic.com" rel="me" title="My personal site">Slobodan Kovačević</a></dt>
+          <dd>My personal site</dd>
+
+          <dt><a href="http://tumblelog.slobodankovacevic.com/" rel="me" title="A tumble log of stuff that I find interesting">This should be interesting</a></dt>
+          <dd>A tumble log of stuff that I find interesting</dd>
+        </dl>
+
+        <div class="hr"></div>
+
+        <h2>Social networks / media</h2>
+        <ul class="social">
+          <li class="twitter"><a href="http://twitter.com/thebasti">Twitter</a></li>
+          <li class="facebook"><a href="http://www.facebook.com/thebasti">Facebook</a></li>
+          <li class="linkedin"><a href="http://www.linkedin.com/in/slobodankovacevic">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div> <!-- /div id=content -->
+
+    <div id="footer">
+      <h2 class="oi"><a href="/">Orange Iceberg</a></h2>
+      <div class="copy">
+        <h3>
+          <a href="/">Orange Iceberg</a> &copy; All Rights Reserved 2013          |
+            Design by: <a href="http://simplifiedstudio.com/">Simplified</a>.
+          </h3>
+          <p>
+            <a href="/policies.html" rel="nofollow">Privacy policy</a> and
+            <a href="/policies.html" rel="nofollow">Refund policy</a>
+          </p>
+          <p>2Checkout.com, Inc. is an authorized retailer of Orange Iceberg.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-4735545-1");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+  </script>
+</body>
+</html>
