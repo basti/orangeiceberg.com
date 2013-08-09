@@ -45,12 +45,12 @@ body{ background: #f2f2f2 url('../images/bg.png') top left repeat-x;}
 
   /* Content */
   #content{ background: url('../images/content-bg.png') top left no-repeat; margin-top: 40px; position: relative;}
+  #content a{ color: #e46e13; text-decoration: none; border-bottom: 1px dotted #e46e13; }
+  #content a:hover{ border-bottom: 1px solid #b64919;}
   #main{ width: 475px; float: left; padding: 30px 30px 15px 30px;}
     #main h2{ font-size: 22px; font-weight: bold; margin: 24px 0 8px;}
     #main p{ margin: 6px 0;}
     .notop{ margin-top: 0 !important;}
-    #main a{ color: #e46e13; text-decoration: none; border-bottom: 1px dotted #e46e13; }
-      #main a:hover{ border-bottom: 1px solid #b64919;}
   #sidebar{ width: 277px; float: right; padding: 22px 22px 15px 14px;}
     #sidebar h2{ font-weight: bold; font-size: 14px; margin-bottom: 8px;}
     #sidebar p{ color: #666; font-size: 11px;}
@@ -93,3 +93,16 @@ a.external {
 
 #main h3 { font-size: 15px; font-weight: bold; margin: 20px 0 8px;}
 #main h4 { font-size: 16px; font-weight: bold; margin: 24px 0 8px;}
+
+.hire_me_box {
+  text-align:center;
+  padding:10px 10px 10px 10px;
+  margin: 20px 0 20px 0;
+  border: 2px dashed #e89646;
+  background-color: #f0f0f0;
+}
+
+.hire_me_box strong {
+  font-size: 18px;
+  font-weight: bold;
+}
