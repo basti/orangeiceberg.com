@@ -62,14 +62,18 @@ navigation:
           development company. Which is a fancy way of saying that I do my
           Ruby and Rails freelance work under this name.
         </p>
-        <br />
-        <p class="clearfix">
-          Find out <a href="/what-i-do">how I can help you</a> or
-          <a href="/contact">contact me</a>.
-        </p>
 
-        <div class="hr"></div>
-
+        {% if page.url != "/contact/index.html" %}
+          <div class="hire_me_box">
+            <strong>I am available for hire.</strong>
+            <p class="clearfix">
+              Find out <a href="/what-i-do">how I can help you</a> or
+              <a href="/contact">contact me</a>.
+            </p>
+          </div>
+        {% else %}
+          <div class="hr"></div>
+        {% endif %}
         <!--
         <h2>Navigate</h2>
         <ul class="social">
@@ -85,7 +89,7 @@ navigation:
         <div class="hr"></div>
         -->
 
-        <h2>Contact me on...</h2>
+        <h2>Look me up on...</h2>
         <ul class="social">
           <li class="linkedin"><a href="http://www.linkedin.com/in/slobodankovacevic">LinkedIn</a></li>
           <li class="twitter"><a href="http://twitter.com/icebergist">Twitter</a></li>

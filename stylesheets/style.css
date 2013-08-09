@@ -98,11 +98,16 @@ a.external {
   text-align:center;
   padding:10px 10px 10px 10px;
   margin: 20px 0 20px 0;
-  border: 2px dashed #e89646;
+  border: 1px dashed #e89646;
   background-color: #f0f0f0;
 }
 
 .hire_me_box strong {
   font-size: 18px;
+  font-weight: bold;
+}
+
+#sidebar .hire_me_box strong {
+  font-size: 16px;
   font-weight: bold;
 }
