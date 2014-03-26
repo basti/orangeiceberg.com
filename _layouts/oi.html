@@ -65,10 +65,18 @@ navigation:
 
         {% if page.url != "/contact/index.html" %}
           <div class="hire_me_box">
+            {% comment %}
             <strong>I am available for hire.</strong>
             <p class="clearfix">
               Find out <a href="/what-i-do">how I can help you</a> or
               <a href="/contact">contact me</a>.
+            </p>
+            {% endcomment %}
+            Currently I am not available for hire.
+            <p class="clearfix">
+              You can still
+              <a href="/contact">contact me</a>
+              if you have any questions.
             </p>
           </div>
         {% else %}
