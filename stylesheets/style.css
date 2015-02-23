@@ -44,9 +44,23 @@ body{ background: #f2f2f2 url('../images/bg.png') top left repeat-x;}
       ul#navigation li a.current{ border-left: 1px solid #945117; background: #2c2017;}
 
   /* Content */
-  #content{ background: url('../images/content-bg.png') top left no-repeat; margin-top: 40px; position: relative;}
+  #content{ background: url('../images/content-bg.png') top left no-repeat; margin-top: 5px; position: relative;}
   #content a{ color: #e46e13; text-decoration: none; border-bottom: 1px dotted #e46e13; }
   #content a:hover{ border-bottom: 1px solid #b64919;}
+  .big_notice {
+    width: 818px;
+    margin: 10px 0 0 8px;
+    padding: 15px 10px 15px 10px;
+    background: #fff;
+    border: solid 1px #999;
+  }
+  .big_notice p {
+    font-size: 1.4em;
+  }
+  .big_notice span {
+    color: #E89641;
+    font-weight: bold;
+  }
   #main{ width: 475px; float: left; padding: 30px 30px 15px 30px;}
     #main h2{ font-size: 22px; font-weight: bold; margin: 24px 0 8px;}
     #main p{ margin: 6px 0;}
