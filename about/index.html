@@ -13,6 +13,13 @@ title: About
     <div class="col-lg-6">
       <h4>More About Orange Iceberg.</h4>
       <p>
+        Orange Iceberg is a small web development company focused on creating web
+        applications.
+
+        From an idea through planning, building, testing, and launching.
+      </p>
+      {% comment %}
+      <p>
         Orange Iceberg web development is a sole proprietorship of Slobodan Kovačević.
         Which is just a fancy way of saying that I do freelance work under the name of
         Orange Iceberg.
@@ -65,6 +72,7 @@ title: About
         <a title="Services provided by Orange Iceberg" href="/what-i-do">What do I do page</a>
         &#8211; so read it for more details.
       </p>
+      {% endcomment %}
 
       <h4>Do you have another question?</h4>
       <p>
@@ -73,5 +81,38 @@ title: About
         <a title="Contact me if you have more questions" href="/contact" class="btn btn-theme">contact me</a>.
       </p>
     </div>
+  </div><!--/row -->
+</div><!--/container -->
+
+<div class="container mtb">
+  <div class="row centered">
+    <h3 class="mb">MEET OUR TEAM</h3>
+
+    {% for member in site.data.team %}
+      <div class="col-lg-3 col-md-3 col-sm-3">
+        <div class="he-wrap tpl6">
+          <img src="/assets/images/team/{{ member.photo }}" alt="{{ member.name }} - {{ member.role }}">
+          <div class="he-view">
+            <div class="bg a0" data-animate="fadeIn">
+              <h3 class="a1" data-animate="fadeInDown">Find me on:</h3>
+              {% if member.github %}
+                <a href="{{ member.github }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-github"></i></a>
+              {% endif %}
+              {% if member.twitter %}
+                <a href="{{ member.twitter }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-twitter"></i></a>
+              {% endif %}
+              {% if member.linkedin %}
+                <a href="{{ member.linkedin }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-linkedin"></i></a>
+              {% endif %}
+            </div><!-- he bg -->
+          </div><!-- he view -->
+        </div><!-- he wrap -->
+        <h4>{{ member.name }}</h4>
+        <h5 class="ctitle">{{ member.role }}</h5>
+        <p>{{ member.blurb }}</p>
+        <div class="hline"></div>
+      </div><!--/col-lg-3 -->
+    {% endfor %}
+
   </div><!--/row -->
 </div><!--/container -->
