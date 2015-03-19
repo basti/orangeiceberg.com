@@ -35,15 +35,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-p { 
-  padding: 0; 
-  margin-bottom: 12px; 
+p {
+  padding: 0;
+  margin-bottom: 12px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 14px; 
-  line-height: 24px;
-  color: #384452; 
-  margin-top: 10px; 
+  font-size: 16px;
+  /* line-height: 24px; */
+  color: #384452;
+  margin-top: 10px;
 }
 
 img {
@@ -358,6 +358,11 @@ a:focus {
 
 #footerwrap i:hover {
   color: #FF7400;
+  -webkit-transition: background-color .4s linear, color .4s linear;
+  -moz-transition: background-color .4s linear, color .4s linear;
+  -o-transition: background-color .4s linear, color .4s linear;
+  -ms-transition: background-color .4s linear, color .4s linear;
+  transition: background-color .4s linear, color .4s linear;
 }
 
 #footerwrap a {
