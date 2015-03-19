@@ -10,8 +10,8 @@ navigation:
   text: Who am I?
 - pretty_url: /what-i-do
   url: /what-i-do/index.html
-  title: What I do
-  text: Services
+  title: Services
+  text: What I do
 - pretty_url: /portfolio
   url: /portfolio/index.html
   title: Portfolio
@@ -22,54 +22,187 @@ navigation:
   text: Lets talk
 ---
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
-<head>
-  <title>{{ page.title }} - Orange Iceberg Web Development</title>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="screen" charset="utf-8" />
-  <script type="text/javascript" src="/javascripts/external-links.js"></script>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+
+    <title>{{ page.title }} - Orange Iceberg Web Development</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="/assets/js/modernizr.min.js"></script>
+
+    <!-- TODO move to new JS dir -->
+    <script type="text/javascript" src="/javascripts/external-links.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <img src="/images/header-logo.png" />
+          </a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            {% for link in page.navigation %}
+              <li {% if page.url == link.url %}class="active"{% endif %}>
+                <a href="{{link.pretty_url}}" title="{{link.text}}">
+                  {{link.title}}
+                </a>
+              </li>
+            {% endfor %}
+            <li><a href="http://icebergist.com">Blog</a></li>
+
+            {% comment %}
+              <li><a href="contact.html">CONTACT</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="blog.html">BLOG</a></li>
+                </ul>
+              </li>
+            {% endcomment %}
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+  {% unless page.hide_title %}
+    <!-- *****************************************************************************************************************
+     TITLE WRAP
+     ***************************************************************************************************************** -->
+    <div id="titlewrap">
+        <div class="container">
+        <div class="row">
+          <h3>{{ page.title }}</h3>
+        </div><!-- /row -->
+        </div> <!-- /container -->
+    </div><!-- /blue -->
+  {% endunless %}
+
+  {{ content }}
+
+  <!-- *****************************************************************************************************************
+   FOOTER
+   ***************************************************************************************************************** -->
+   <div id="footerwrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h4>About</h4>
+          <div class="hline-w"></div>
+          <!-- TODO update text -->
+          <p>Orange Iceberg - Discovering hidden depths of web applications. Creating great web apps using Ruby on Rails.</p>
+        </div>
+        <div class="col-lg-4">
+          <h4>Social Links</h4>
+          <div class="hline-w"></div>
+          <p>
+            <a href="http://www.linkedin.com/in/slobodankovacevic"><i class="fa fa-linkedin"></i></a>
+            <a href="http://www.facebook.com/thebasti"><i class="fa fa-facebook"></i></a>
+            <a href="http://twitter.com/icebergist"><i class="fa fa-twitter"></i></a>
+            <a href="http://icebergist.com"><i class="fa fa-rss"></i></a>
+            <a href="http://tumblelog.slobodankovacevic.com/"><i class="fa fa-tumblr"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <h4>Contact us</h4>
+          <div class="hline-w"></div>
+          <p>
+            Email:
+            <script type="text/javascript">// <![CDATA[
+              eval(unescape('%66%75%6E%63%74%69%6F%6E%20%70%67%72%65%67%67%5F%74%72%61%6E%73%70%6F%73%65%32%28%68%29%20%7B%76%61%72%20%73%3D%27%61%6D%6C%69%6F%74%62%3A%73%61%69%74%6F%40%61%72%67%6E%69%65%65%63%65%62%67%72%63%2E%6D%6F%27%3B%76%61%72%20%72%3D%27%27%3B%66%6F%72%28%76%61%72%20%69%3D%30%3B%69%3C%73%2E%6C%65%6E%67%74%68%3B%69%2B%2B%2C%69%2B%2B%29%7B%72%3D%72%2B%73%2E%73%75%62%73%74%72%69%6E%67%28%69%2B%31%2C%69%2B%32%29%2B%73%2E%73%75%62%73%74%72%69%6E%67%28%69%2C%69%2B%31%29%7D%68%2E%68%72%65%66%3D%72%3B%7D%64%6F%63%75%6D%65%6E%74%2E%77%72%69%74%65%28%27%3C%61%20%68%72%65%66%3D%22%23%22%20%6F%6E%4D%6F%75%73%65%4F%76%65%72%3D%22%6A%61%76%61%73%63%72%69%70%74%3A%70%67%72%65%67%67%5F%74%72%61%6E%73%70%6F%73%65%32%28%74%68%69%73%29%22%20%6F%6E%46%6F%63%75%73%3D%22%6A%61%76%61%73%63%72%69%70%74%3A%70%67%72%65%67%67%5F%74%72%61%6E%73%70%6F%73%65%32%28%74%68%69%73%29%22%3E%62%61%73%74%69%40%6F%72%61%6E%67%65%69%63%65%62%65%72%67%2E%63%6F%6D%3C%2F%61%3E%27%29%3B'))
+            // ]]&gt;</script>
+          </p>
+          <p>
+            Or if you are old fashioned you can write at:
+          </p>
+          <p>
+            Orange Iceberg Maximus doo<br />
+            Fruškogorska 17a<br/>
+            21000 Novi Sad<br/>
+            Serbia<br/>
+          </p>
+        </div>
+      </div><!--/row -->
+     </div>
+   </div>
+   <div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <a href="/">
+            <img src="/images/oi-logo-footer.png" />
+          </a>
+        </div>
+        <div class="col-lg-9">
+          <p class="text-right text-muted">Orange Iceberg Maximus doo &copy; All Rights Reserved 2015.</p>
+        </div>
+      </div><!--/row -->
+    </div><!--/container -->
+   </div><!--/footerwrap -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/retina-1.1.0.js"></script>
+    <script src="/assets/js/jquery.hoverdir.js"></script>
+    <script src="/assets/js/jquery.hoverex.min.js"></script>
+    <script src="/assets/js/jquery.prettyPhoto.js"></script>
+    <script src="/assets/js/jquery.isotope.min.js"></script>
+    <script src="/assets/js/custom.js"></script>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-4735545-1");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>
+
+{% comment %}
 <body>
 <div id="fake-footer-bg">
   <div id="warper" class="clearfix">
-    <div id="header">
-      <h1><a href="/">Orange Iceberg - Discovering hidden depths of web applications. Creating great web apps using Ruby on Rails and PHP. All done by one freelance web developer.</a></h1>
-      <ul id="navigation">
-        {% for link in page.navigation %}
-          <li>
-            <a href="{{link.pretty_url}}" title="{{link.title}}" {% if page.url == link.url %}class="current"{% endif %}>
-              <strong>{{link.title}}</strong>
-              {{link.text}}
-            </a>
-          </li>
-        {% endfor %}
-        <li><a href="http://icebergist.com"><strong>Blog</strong>My thoughs</a></li>
-      </ul>
-    </div>
-    <div class="big_notice">
-      <a href="/contact"><img src="/images/big_notice.png" /></a>
-    </div>
-    {% comment %}
-    <div class="big_notice">
-      <p>
-        <span>IMPORTANT:</span> The information below might not be up-to-date.
-      </p>
-      <br />
-      <p>
-        Orange Iceberg is currently being expanded from a one-man company into a team of Ruby developers.
-        The brand new updated site is comming up very soon.
-        For more information feel free to <a href="/contact">contact us</a>.
-      </p>
-    </div>
-    {% endcomment %}
     <div id="content" class="clearfix">
-      <div id="main">
-        <h2 class="notop">{{ page.title }}</h2>
-        {{ content }}
-      </div>
-
       <div id="sidebar">
         <h2>About Orange Iceberg</h2>
         <p class="clearfix">
@@ -81,13 +214,13 @@ navigation:
 
         {% if page.url != "/contact/index.html" %}
           <div class="hire_me_box">
-            {% comment %}
+            { % comment % }
             <strong>I am available for hire.</strong>
             <p class="clearfix">
               Find out <a href="/what-i-do">how I can help you</a> or
               <a href="/contact">contact me</a>.
             </p>
-            {% endcomment %}
+            { % endcomment % }
             Currently I am not available for hire.
             <p class="clearfix">
               You can still
@@ -98,69 +231,9 @@ navigation:
         {% else %}
           <div class="hr"></div>
         {% endif %}
-        <!--
-        <h2>Navigate</h2>
-        <ul class="social">
-          {% for link in page.navigation %}
-            <li>
-              <a href="{{link.pretty_url}}" title="{{link.title}}" {% if page.url == link.url %}class="current_page_item"{% endif %}>
-                {{link.title}}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-
-        <div class="hr"></div>
-        -->
-
-        <h2>Look me up on...</h2>
-        <ul class="social">
-          <li class="linkedin"><a href="http://www.linkedin.com/in/slobodankovacevic">LinkedIn</a></li>
-          <!-- <li class="twitter"><a href="http://twitter.com/icebergist">Twitter</a></li> -->
-          <li class="facebook"><a href="http://www.facebook.com/thebasti">Facebook</a></li>
-        </ul>
-
-        <div class="hr"></div>
-
-        <h2>More info</h2>
-        <dl class="more">
-          <dt><a href="http://icebergist.com" rel="me" title="Orange Iceberg blog">Icebergist</a></dt>
-          <dd>Orange Iceberg blog</dd>
-
-          <dt><a href="http://slobodankovacevic.com" rel="me" title="My personal site">Slobodan Kovačević</a></dt>
-          <dd>My personal site</dd>
-
-          <dt><a href="http://tumblelog.slobodankovacevic.com/" rel="me" title="A tumble log of stuff that I find interesting">This should be interesting</a></dt>
-          <dd>A tumble log of stuff that I find interesting</dd>
-        </dl>
       </div>
     </div> <!-- /div id=content -->
-
-    <div id="footer">
-      <h2 class="oi"><a href="/">Orange Iceberg</a></h2>
-      <div class="copy">
-        <h3>
-          <a href="/">Orange Iceberg</a> &copy; All Rights Reserved 2013          |
-            Design by: <a href="http://simplifiedstudio.com/">Simplified</a>.
-          </h3>
-          <p>
-            <a href="/policies.html" rel="nofollow">Privacy policy</a> and
-            <a href="/policies.html" rel="nofollow">Refund policy</a>
-          </p>
-          <p>2Checkout.com, Inc. is an authorized retailer of Orange Iceberg.</p>
-        </div>
-      </div>
-    </div>
   </div>
 
-  <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-    var pageTracker = _gat._getTracker("UA-4735545-1");
-    pageTracker._initData();
-    pageTracker._trackPageview();
-  </script>
 </body>
-</html>
+{% endcomment %}
