@@ -322,12 +322,29 @@ a:focus {
   line-height: 30px;
 }
 
+/* associates logo */
+#awrap {
+  background: white;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+#awrap h3 {
+  margin-bottom: 60px;
+}
+
+.associate-logo {
+  max-height: 50px;
+  margin-bottom: 30px;
+}
+
 /* clients logo */
 #cwrap {
   background: #F7F7F7;
   margin-top: 0px;
-  padding-top: 80px;
-  padding-bottom: 100px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 #cwrap h3 {
@@ -473,4 +490,19 @@ csmall2 {
 .share i {
   padding-right: 15px;
   font-size: 18px;
+}
+
+/* http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ */
+.vertical-align-holder {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }

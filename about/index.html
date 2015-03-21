@@ -7,25 +7,45 @@ title: About
   <div class="row">
     <div class="col-lg-6">
       <!-- TODO replace placeholder -->
-      <img class="img-responsive" src="/assets/img/agency.jpg" alt="">
+      <img class="img-responsive" src="/assets/images/orange-iceberg-on-screen-800x600.jpg" alt="Orange Iceberg web application consultancy">
     </div>
 
     <div class="col-lg-6">
       <h4>More About Orange Iceberg.</h4>
       <p>
-        Orange Iceberg is a small web development company focused on creating web
-        applications.
-
-        From an idea through planning, building, testing, and launching.
+        Orange Iceberg is a small web development consultancy focused on transforming
+        <a href="#cwrap" title="Clients we worked with and built great Ruby on Rails web applications">our client's</a>
+        ideas to functional web applications.
       </p>
-      {% comment %}
       <p>
-        Orange Iceberg web development is a sole proprietorship of Slobodan Kovačević.
-        Which is just a fancy way of saying that I do freelance work under the name of
-        Orange Iceberg.
-        <a title="Hire me" href="/contact">Want to hire me?</a>
+        We specialize in building web applications using Ruby and Ruby on Rails.
+        However depending on a project we often assemble and lead a team of various web professionals,
+        with help from our
+        <a href="#awrap" title="People who help us build Ruby on Rails web applications">associates</a>.
       </p>
 
+      <h4>Why the name Orange Iceberg?</h4>
+      <p>
+        An iceberg is often over 90% underwater with only tip being visible.
+        Most web applications (and software in general) are like that too.
+        There's a pretty interface that makes about 10% of a web app, but
+        underneath it there's still 90% of the app.
+      </p>
+      <p>
+        We make web applications. They are like icebergs in some sense.
+        It just made sense.
+      </p>
+
+      <h4>Do you have another question?</h4>
+      <p>
+        If there's anything you'd like to know about Orange Iceberg or
+        you want to talk to us please don't hesitate to
+        <a title="Contact us if you have more questions or if you want to discuss building a new Ruby on Rails web application" href="/contact">contact us</a>.
+      </p>
+
+      <a title="Contact us if you need a help with Rails application" href="/contact" class="btn btn-theme">Contact us</a>
+
+      {% comment %}
       <h4>Who am I?</h4>
       <p>
         My name is Slobodan Kovačević. I have been a professional web developer for
@@ -48,22 +68,6 @@ title: About
         <a title="Slobodan Kovacevic - web developer" href="http://slobodankovacevic.com">my personal site</a>.
       </p>
 
-      <h4>Why the name Orange Iceberg?</h4>
-      <p>
-        An iceberg is sometimes over 90% underwater and only tip is visible. Well,
-        most web applications (and software in general) are like that too &#8211;
-        there&#8217;s a pretty user interface that makes about 10% of a web app, and
-        then 90% of the programming work is under the covers.
-      </p>
-      <p>
-        I make web apps and web apps are like icebergs in some sense, so it just made
-        sense.
-      </p>
-      <p>
-        And why Orange&#8230; Well, why not?
-        <img src='/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />
-      </p>
-
       <h4>What do I do?</h4>
       <p>
         Last year or two I have been focusing on creating web apps using Ruby on Rails,
@@ -73,13 +77,6 @@ title: About
         &#8211; so read it for more details.
       </p>
       {% endcomment %}
-
-      <h4>Do you have another question?</h4>
-      <p>
-        If there&#8217;s anything you&#8217;d like to know about Orange Iceberg or
-        myself please don&#8217;t hesitate to
-        <a title="Contact me if you have more questions" href="/contact" class="btn btn-theme">contact me</a>.
-      </p>
     </div>
   </div><!--/row -->
 </div><!--/container -->
@@ -89,7 +86,7 @@ title: About
     <h3 class="mb">MEET OUR TEAM</h3>
 
     {% for member in site.data.team %}
-      <div class="col-lg-3 col-md-3 col-sm-3">
+      <div class="col-lg-6 col-md-6 col-sm-6">
         <div class="he-wrap tpl6">
           <img src="/assets/images/team/{{ member.photo }}" alt="{{ member.name }} - {{ member.role }}">
           <div class="he-view">
@@ -116,3 +113,39 @@ title: About
 
   </div><!--/row -->
 </div><!--/container -->
+
+<div id="cwrap">
+  <div class="container">
+    <div class="row centered">
+      <h3>CLIENTS</h3>
+      <div class="vertical-align-holder">
+        {% for client in site.data.clients %}
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <a href="{{ client.url }}" rel="external">
+              <img src="/assets/images/clients/{{ client.logo }}" class="img-responsive associate-logo center-block">
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+
+    </div><!--/row -->
+  </div><!--/container -->
+</div><!--/cwrap -->
+
+<div id="awrap">
+  <div class="container">
+    <div class="row centered">
+      <h3>FRIENDS & ASSOCIATES</h3>
+      <div class="vertical-align-holder">
+        {% for associate in site.data.associates %}
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <a href="{{ associate.url }}" rel="external">
+              <img src="/assets/images/associates/{{ associate.logo }}" class="img-responsive associate-logo center-block">
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+
+    </div><!--/row -->
+  </div><!--/container -->
+</div><!--/awrap -->

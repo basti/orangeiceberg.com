@@ -1,0 +1,18 @@
+- name: Aligni
+  url: https://www.aligni.com/
+  logo: aligni.png
+- name: Opal Kelly
+  url: https://www.opalkelly.com/
+  logo: opalkelly.png
+- name: Oriex
+  url: http://www.oriex.fr/
+  logo: oriex.png
+- name: Earth.org
+  url: http://www.earth.org/
+  logo: earthorg.png
+- name: Reciprocity
+  url: https://reciprocitylabs.com/
+  logo: reciprocity.png
+- name: Blue Zeppelin
+  url: http://bluezeppelin.com/
+  logo: bluezeppelin.png
