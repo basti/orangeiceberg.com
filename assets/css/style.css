@@ -51,10 +51,10 @@ img {
   max-width: 100%;
 }
 
-a { 
+a {
   padding: 0;
   margin: 0;
-  text-decoration: none; 
+  text-decoration: none;
   -webkit-transition: background-color .4s linear, color .4s linear;
   -moz-transition: background-color .4s linear, color .4s linear;
   -o-transition: background-color .4s linear, color .4s linear;
@@ -63,7 +63,7 @@ a {
 }
 a:hover,
 a:focus {
-  text-decoration: none;
+  text-decoration: underline;
   color:#01b2fe;
 }
 
@@ -505,4 +505,18 @@ csmall2 {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+/* google map */
+#map-canvas {
+  height: 400px;
+  width: 100%;
+  margin-top: -10px; /* counter subheader margin bottom */
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#contact-info .fa {
+  font-size: 20px;
+  padding-bottom: 10px;
 }
