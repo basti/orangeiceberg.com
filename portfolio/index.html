@@ -3,22 +3,48 @@ layout: oi
 title: Portfolio
 ---
 
-<p>These are some of the latest projects I worked on:</p>
-<ul>
-  <li><a rel="external" href="http://reciprocitynow.com/">Reciprocity</a> &#8211; a software platform for Enterprise Gamification (currently working on it as senior developer).</li>
-  <li><a rel="external" href="http://sharedearth.net/">Shared Earth</a> &#8211; a social network for humans to build trust and share possessions and skills.</li>
-  <li><a title="Automated hosting service for artists" rel="external" href="http://bluezeppelin.com/">Blue Zeppelin Art Galleries</a> &#8211; an automated hosting service for artists (currently I am recoding it using Rails and adding many improvements).</li>
-  <li><a title="Store for fishing enthusisasts" rel="external" href="http://formaxstore.com">Formax Store</a> &#8211; an e commerce store for fishing enthusiasts.</li>
-  <li><a title="Art project" rel="external" href="http://facesofmillions.com/">Faces of Millions</a> &#8211; an art project aiming to gather a million photos and making a huge photo mosaic.</li>
-</ul>
+<div id="portfoliowrap">
+  <div class="container">
+    <div class="row centered">
+      <h3>PROJECTS</h3>
+      <h4>These are some of the projects we worked on.</h4>
+      <div class="vertical-align-holder">
+        {% for client in site.data.clients %}
+          {% for project in client.projects %}
+            <div class="container mt">
+              <div class="row">
+                <div class="col-lg-7">
+                  <a href="{{ project.url }}" rel="external">
+                    <img src="/assets/images/portfolio/{{ project.screenshot }}" class="screenshot" alt="{{ project.name }} - {{ project.tags }}">
+                  </a>
+                </div>
 
-<p>While I was CEO and lead developer at Array Studio (a company I co-founded) I was involved with most of the sites Array Studio produced, among others:</p>
+                <div class="col-lg-5">
+                  <h4>{{ project.name }}</h4>
+                  <div class="hline"></div>
+                  {% if project.date %}
+                    <p><b>Date:</b> April 18, 2014</p>
+                  {% endif %}
+                  <p>{{ project.description }}</p>
+                  <p><b>Website:</b> <a href="{{ project.url }}" rel="external">{{ project.url }}</a></p>
+                  {% if project.tags %}
+                    <p><b>Tagged:</b> {{ project.tags }}</p>
+                  {% endif %}
+                  <p>
+                    <b>Client:</b>
+                    <a href="{{ client.url }}" rel="external">
+                      <img src="/assets/images/clients/{{ client.logo }}" class="img-responsive center-block associate-logo">
+                    </a>
+                  </p>
+                </div>
 
-<ul>
-  <li><a title="Design Inspiration Gallery" rel="external" href="http://faveup.com">Fave Up</a> &#8211; an design inspiration gallery in where visitors can post their designs. (note: they have a new site now, but you can see the one I built <a href="http://web.archive.org/web/20070928214749/http://faveup.com/" target="_blank">here in Web Archive</a>)</li>
-  <li><a title="My Best Five - niche social networking site" rel="external" href="http://mybestfive.com/">My Best Five</a> &#8211; a niche social networking site.</li>
-  <li><a title="Pet Med and Supplies Comparison site" rel="external" href="http://petmedguide.com/index.php">Pet Med Guide</a> &#8211; a pet med and supplies comparison site.</li>
-  <li><a title="F@M" rel="external" href="http://famns.edu.yu/">F@M</a> &#8211; a faculty of management studies.</li>
-  <li><a title="UK health magazine" rel="external" href="http://positivehealth.com/">Positive Health</a> &#8211; an UK health magazine.</li>
-  <li><a title="Web app that facilitates club members in finding playing partners" rel="external" href="http://oncourtsystems.com/">OnCourt Systems</a> &#8211; a web app that facilitates club members in finding playing partners.</li>
-</ul>
+              </div><!--/row -->
+            </div><!--/container -->
+            <div class="hline-muted"></div>
+          {% endfor %}
+        {% endfor %}
+      </div>
+
+    </div><!--/row -->
+  </div><!--/container -->
+</div><!--/cwrap -->
