@@ -6,9 +6,21 @@
       url: https://www.aligni.com/
       description: "Aligni is cloud-based software for product lifecycle and manufacturing management.
         As such the app itself is very large with complex data structures.
-        We have been working as a part of Aligni team to maintain and expand Aligni features."
+        We have been working as a part of Aligni development team to maintain and expand Aligni features."
       screenshot: aligni.png
       tags: "Ruby, Ruby on Rails, API, jQuery"
+- name: Opal Kelly
+  url: https://www.opalkelly.com/
+  logo: opalkelly.png
+  projects:
+    - name: Pins
+      url: https://pins.opalkelly.com/
+      description: "Pins provides Pin Lists for Opal Kelly products.
+        Each Pin List is interactive, searchable, filterable, and exportable.
+        It provides data for desktop applications used in manufacturing.
+        Also Pins acts as OAuth provider for other services provided by Opal Kelly."
+      screenshot: opal-kelly-pins.png
+      tags: "Ruby on Rails, API, Google Drive, OAuth provider, desktop app integration"
 - name: Earth.org
   url: http://www.earth.org/
   logo: earthorg.png
@@ -31,35 +43,53 @@
         system (CMS) built according to specific requirements."
       screenshot: meteorites.png
       tags: "Ruby, Ruby on Rails, jQuery"
-- name: Opal Kelly
-  url: https://www.opalkelly.com/
-  logo: opalkelly.png
-  projects:
-    - name: Pins
-      url: https://pins.opalkelly.com/
 - name: Oriex
   url: http://www.oriex.fr/
   logo: oriex.png
   projects:
     - name: Aerosol Forum
       url: http://www.aerosol-forum.com/
+      screenshot: oriex-aerosol-forum.png
+      description: "Custom-build multilingual CMS with conference visitor registration and online payment handling.
+        Used on Aerosol Forum and PCD Congress sites."
+      tags: "Custom CMS, ecommerce, card payment, multilingual"
     - name: PCD Congress
       url: http://www.pcd-congress.com/
-    - name: CFA Aerosol
-      url: http://cfa-aerosol.org/
-    - name: Pet's and Vet's Packaging Forum
-      url: http://www.petandvet-packaging-forum.com/
+      screenshot: oriex-pcd.png
+      description: "Custom-build multilingual CMS with conference visitor registration and online payment handling.
+        Used on multiple sites."
+      tags: "Custom CMS, ecommerce, card payment, multilingual"
+    #- name: CFA Aerosol
+    #  url: http://cfa-aerosol.org/
+    #  screenshot: oriex-cfa.png
+    #  description: ""
+    #  tags: ""
+    #- name: Pet's and Vet's Packaging Forum
+    #  url: http://www.petandvet-packaging-forum.com/
+    #  screenshot: oriex-pet-vet.png
+    #  description: ""
+    #  tags: ""
 - name: Reciprocity
   url: https://reciprocitylabs.com/
   logo: reciprocity.png
   projects:
     - name: Opower
       url: http://opower.com/
+      screenshot: reciprocity-opower.png
+      description: "Maintenance and implementing new features for custom CMS running on Opower.com."
+      tags: "Ruby, Ruby on Rails, Custom CMS, jQuery"
     - name: Sonatype
       url: http://www.sonatype.com/
+      screenshot: reciprocity-sonatype.png
+      description: "Used Refinery CMS and custom-built Refinery CMS extensions to create a system tailored according to client's specification."
+      tags: "Ruby, Ruby on Rails, Refinery CMS"
 - name: Blue Zeppelin
   url: http://bluezeppelin.com/
   logo: bluezeppelin.png
   projects:
     - name: BlueZeppelin
       url: http://bluezeppelin.com/
+      screenshot: bluezeppelin.png
+      description: "Online art galleries that enable artist to display their art.
+        Fully automated system with recurring payments subscription."
+      tags: "Ruby on Rails, S3, AWS, subscriptions, recurring payments"
