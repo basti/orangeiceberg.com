@@ -2,20 +2,16 @@
 navigation:
 - pretty_url: /
   url: /index.html
-  title: Home
-  text: What we do
+  title: Services
+  text: What we can do for you
 - pretty_url: /about
   url: /about/index.html
   title: About
   text: More about us
-- pretty_url: /what-i-do
-  url: /what-i-do/index.html
-  title: Services
-  text: What I do
 - pretty_url: /portfolio
   url: /portfolio/index.html
   title: Portfolio
-  text: Our clients and recent work
+  text: Recent work
 - pretty_url: /contact
   url: /contact/index.html
   title: Contact
@@ -41,9 +37,6 @@ navigation:
     <link href="/assets/css/style.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -83,16 +76,6 @@ navigation:
               </li>
             {% endfor %}
             <li><a href="http://icebergist.com">Blog</a></li>
-
-            {% comment %}
-              <li><a href="contact.html">CONTACT</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="blog.html">BLOG</a></li>
-                </ul>
-              </li>
-            {% endcomment %}
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -123,11 +106,16 @@ navigation:
         <div class="col-lg-4">
           <h4>About</h4>
           <div class="hline-w"></div>
-          <!-- TODO update text -->
-          <p>Orange Iceberg - Discovering hidden depths of web applications. Creating great web apps using Ruby on Rails.</p>
+          <p>
+            Orange Iceberg is a web small development consultancy.
+            Our focus is on creating web applications using Ruby and Ruby on Rails.
+          </p>
+          <p>
+            <a href="/contact">Contact us</a> for a free consultation.
+          </p>
         </div>
         <div class="col-lg-4">
-          <h4>Social Links</h4>
+          <h4>Socialize</h4>
           <div class="hline-w"></div>
           <p>
             <a href="http://www.linkedin.com/in/slobodankovacevic"><i class="fa fa-linkedin"></i></a>
@@ -197,43 +185,3 @@ navigation:
     </script>
   </body>
 </html>
-
-{% comment %}
-<body>
-<div id="fake-footer-bg">
-  <div id="warper" class="clearfix">
-    <div id="content" class="clearfix">
-      <div id="sidebar">
-        <h2>About Orange Iceberg</h2>
-        <p class="clearfix">
-          <img src="/images/slobodan-110x110.gif" width="86" height="86" alt="Slobodan Kovacevic" />
-          My name is Slobodan Kovačević and Orange Iceberg is Ruby web
-          development company. Which is a fancy way of saying that I do my
-          Ruby and Rails freelance work under this name.
-        </p>
-
-        {% if page.url != "/contact/index.html" %}
-          <div class="hire_me_box">
-            { % comment % }
-            <strong>I am available for hire.</strong>
-            <p class="clearfix">
-              Find out <a href="/what-i-do">how I can help you</a> or
-              <a href="/contact">contact me</a>.
-            </p>
-            { % endcomment % }
-            Currently I am not available for hire.
-            <p class="clearfix">
-              You can still
-              <a href="/contact">contact me</a>
-              if you have any questions.
-            </p>
-          </div>
-        {% else %}
-          <div class="hr"></div>
-        {% endif %}
-      </div>
-    </div> <!-- /div id=content -->
-  </div>
-
-</body>
-{% endcomment %}
