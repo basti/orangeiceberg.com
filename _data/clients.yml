@@ -8,7 +8,9 @@
         As such the app itself is very large with complex data structures.
         We have been working as a part of Aligni development team to maintain and expand Aligni features."
       screenshot: aligni.png
+      screenshot_thumb: aligni-thumb.png
       tags: "Ruby, Ruby on Rails, API, jQuery"
+      featured: true
 - name: Opal Kelly
   url: https://www.opalkelly.com/
   logo: opalkelly.png
@@ -20,7 +22,9 @@
         It provides data for desktop applications used in manufacturing.
         Also Pins acts as OAuth provider for other services provided by Opal Kelly."
       screenshot: opal-kelly-pins.png
+      screenshot_thumb: opal-kelly-pins-thumb.png
       tags: "Ruby on Rails, API, Google Drive, OAuth provider, desktop app integration"
+      featured: true
 - name: Earth.org
   url: http://www.earth.org/
   logo: earthorg.png
@@ -30,13 +34,17 @@
       description: "Ayurveda Finder is a directory of ayurveda retreats, ayurveda holidays and ayurveda teacher trainings.
         We have built a centralized content management system used by more than one site through a web service."
       screenshot: ayurvedafinder.png
+      screenshot_thumb: ayurvedafinder-thumb.png
       tags: "Ruby, Ruby on Rails, Web Service, API, jQuery, Multilingual"
+      featured: true
     - name: Yoga.info
       url: http://www.yoga.info/
       description: "An independent selection of exceptional yoga retreats, yoga holidays and yoga teacher trainings.
         We have built a centralized content management system used by more than one site through a web service."
       screenshot: yogainfo.png
+      screenshot_thumb: yogainfo-thumb.png
       tags: "Ruby, Ruby on Rails, Web Service, API, jQuery, Multilingual"
+      featured: true
     - name: Meteorites
       url: http://www.meteorites.org/
       description: "Meteorites.org shows a collection of beautiful meteorites. Powered by a custom-built content management

@@ -213,10 +213,9 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-  background-color: #00b3fe;
-  min-height: 550px;
+  background-color: #FF7400;
   padding-top: 100px;
-  padding-bottom: 0px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -236,12 +235,12 @@ a:focus {
 
 /* Services Wrap */
 #service {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 80px;
 }
 
 #service i {
-  color: #00b3fe;
+  color: #D96200;
   font-size: 60px;
   padding: 15px;
 }
@@ -249,9 +248,11 @@ a:focus {
 /* Portfolio Wrap */
 #portfoliowrap {
   padding-top: 10px;
+  padding-bottom: 10px;
   margin-bottom: 60px;
   display: block;
-  text-align: center
+  text-align: center;
+  background: #F7F7F7;
 }
 
 #portfoliowrap h3 {
@@ -265,9 +266,10 @@ a:focus {
 }
 
 
-.portfolio-item .title:before {border-radius:0; display:none}
-.portfolio-item p {margin:0px 0 30px;}
-.portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
+.portfolio-item { padding: 5px; }
+.portfolio-item .title:before { border-radius:0; display:none }
+.portfolio-item p { margin:0px 0 30px; }
+.portfolio-item h3 { margin:-10px 0 10px; font-size:16px; text-transform:uppercase; }
 
 
 .tpl6 h3
@@ -281,7 +283,7 @@ a:focus {
 .tpl6 .dmbutton
 {
   display:inline-block;
-  margin:30px 5px 20px 5px;
+  margin:15px 5px 20px 5px;
   font-size:13px;
 }
 

@@ -4,55 +4,121 @@ title: Ruby on Rails development
 hide_title: true
 ---
 
-<p>
-  Orange Iceberg is a small web development company focused on creating web
-  applications.
+<div id="headerwrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h3>You have an idea for a web app?</h3>
+        <h1>Let's transform your idea into a web application.</h1>
+        <h5>Planning, building, testing, launching, and maintaining your web application - we are there for you.</h5>
+      </div>
+    </div><!-- /row -->
+  </div> <!-- /container -->
+</div><!-- /headerwrap -->
 
-  We can help you take your web application from an idea to a finished product.
-</p>
-<p>
-  Every step of the way you'll have our support - through planning, building, testing,
-  launching, and then maintaining your web application.
-</p>
+<div id="service">
+  <div class="container">
+    <div class="row centered">
+      <div class="col-md-4">
+        <i class="fa fa-users"></i>
+        <h4>Who we are</h4>
+        <p>
+          We're a group of web developers.
+          We write code for the web and make great web apps.
+          Our goal is learn something new everyday to build even better web apps.
+        </p>
+        <p><br/><a href="/about" class="btn btn-theme">Meet the team</a></p>
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-cogs"></i>
+        <h4>What we made</h4>
+        <p>
+          Web apps that we build come in different shapes and sizes.
+          From simple web service to complex ecommerce web app.
+          Over the years that gave us the opportunity to tackle different challenges.
+        </p>
+        <p><br/><a href="/portfolio" class="btn btn-theme">Portfolio</a></p>
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-diamond"></i>
+        <h4>What we specialize in</h4>
+        <p>
+          We love coding in Ruby.
+          That's why we specialize in building web apps using Ruby and Ruby on Rails.
+          We love writing about it too.
+          You can read about our experiences on our blog.
+        </p>
+        <p><br/><a class="btn btn-theme" title="Icebergist web development blog" href="http://icebergist.com/">Our blog</a></p>
+      </div>
+    </div>
+  </div><!--/container -->
+</div><!--/service -->
 
-<p>
-  Orange Iceberg specializes in Ruby &amp; Ruby on Rails development and web
-  application consulting. It's mostly one-man company run by Slobodan Kovačević,
-  but it also gathers other freelance developers.
-</p>
-<p>
-  You can find out
-  <a title="Web services provided by Orange Iceberg" href="../what-i-do">how I can help you with your Ruby project</a>,
-  learn more
-  <a title="About Orange Iceberg" href="../about">about me</a>
-  or see a list some of
-  <a title="Orange Iceberg client projects" href="../portfolio">Ruby projects</a>
-  I worked on.
-</p>
 
-<h4>Interested in <strong>free consultation</strong>?</h4>
-<p>
-  If you'd like just to consult about your Rails project,
-  ask for a project estimate or hire me simply
-  <a title="Contact me if you have more questions" href="../contact">contact me</a>
-  and I will be happy to talk to you and help you in any way I can.
-</p>
+<div id="portfoliowrap">
+  <h3>LATEST PROJECTS</h3>
+  <div class="portfolio-centered">
+    <div class="recentitems portfolio">
 
-<h4>The Icebergist (Orange Iceberg blog)</h4>
-<p>
-  <a title="Icebergist web development blog" href="http://icebergist.com/">Icebergist</a>
-  is a blog where I write about both technical and business stuff I deal with daily.
-  From Ruby on Rails programming to time organizing, everything that’s important
-  in my daily work.
-</p>
+      {% for client in site.data.clients %}
+        {% for project in client.projects %}
+          {% if project.featured %}
+            <div class="portfolio-item">
+              <div class="he-wrap tpl6">
+                <img src="/assets/images/portfolio/{{ project.screenshot_thumb }}" alt="{{ project.name }} - {{ project.tags }}">
+                <div class="he-view">
+                  <div class="bg a0" data-animate="fadeIn">
+                    <h3 class="a1" data-animate="fadeInDown">{{ project.name }}</h3>
+                    <a data-rel="prettyPhoto" href="/assets/images/portfolio/{{ project.screenshot }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                    <a href="/portfolio" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                  </div><!-- he bg -->
+                </div><!-- he view -->
+              </div><!-- he wrap -->
+            </div><!-- end col-12 -->
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
 
-<!-- <br />
-<script src="http://feeds.feedburner.com/icebergist?format=sigpro" type="text/javascript"></script>
-<br /> -->
+    </div><!-- portfolio -->
+  </div><!-- portfolio container -->
+</div><!--/Portfoliowrap -->
 
-<p>
-  Also you can read
-  <a title="AS Workshop post by Slobodan Kovacevic" href="http://www.google.com/search?hl=en&amp;rlz=1B3GGGL_enYU233YU234&amp;q=%22Author%3A+Slobodan+Kovacevic%22+site%3Aarraystudio.com+inurl%3Ahtml&amp;btnG=Search" rel="external">
-    my old posts from AS Workshop blog
-  </a>.
-</p>
+<div class="container mtb">
+  <div class="row">
+    <div class="col-lg-5 col-lg-offset-1">
+      <h4>Here's what we can do for you!</h4>
+      <p>
+        We can help you take your web application from an idea to a finished product.
+        Every step of the way you'll have our support - through planning, building, testing,
+        launching, and then maintaining your web application.
+      </p>
+      <p><br/><a href="/about" class="btn btn-theme">More about us</a></p>
+    </div>
+    <div class="col-lg-5">
+      <h4>Interested in free consultation?</h4>
+      <p>
+        If you'd like to discuss your project, ask for project estimate,
+        inquire about our availability, or you just want to talk,
+        please get in touch and we'll be happy to respond and help you in any way we can.
+      </p>
+      <p><br/><a href="/contact" class="btn btn-theme">Get in touch</a></p>
+    </div>
+  </div><!--/row -->
+</div><!--/container -->
+
+<div id="cwrap">
+  <div class="container">
+    <div class="row centered">
+      <h3>CLIENTS</h3>
+      <div class="vertical-align-holder">
+        {% for client in site.data.clients %}
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <a href="{{ client.url }}" rel="external">
+              <img src="/assets/images/clients/{{ client.logo }}" class="img-responsive associate-logo center-block">
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div><!--/row -->
+  </div><!--/container -->
+</div><!--/cwrap -->

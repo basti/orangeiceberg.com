@@ -23,7 +23,7 @@ title: Portfolio
                   <h4>{{ project.name }}</h4>
                   <div class="hline"></div>
                   {% if project.date %}
-                    <p><b>Date:</b> April 18, 2014</p>
+                    <p><b>Date:</b> {{ project.date }}</p>
                   {% endif %}
                   <p>{{ project.description }}</p>
                   <p><b>Website:</b> <a href="{{ project.url }}" rel="external">{{ project.url }}</a></p>
