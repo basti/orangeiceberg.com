@@ -55,29 +55,52 @@ navigation:
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">
-            <img src="/images/header-logo.png" />
-          </a>
-        </div>
-        <div class="navbar-collapse collapse navbar-right">
-          <ul class="nav navbar-nav">
-            {% for link in page.navigation %}
-              <li {% if page.url == link.url %}class="active"{% endif %}>
-                <a href="{{link.pretty_url}}" title="{{link.text}}">
-                  {{link.title}}
-                </a>
-              </li>
-            {% endfor %}
-            <li><a href="http://icebergist.com">Blog</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+        {% if page.hide_navigation %}
+          <style>
+            .navbar-brand
+            {
+                position: absolute;
+                width: 100%;
+                left: 0;
+                top: 0;
+                text-align: center;
+                margin: auto;
+            }
+            .navbar-header
+            {
+              height: 85px;
+            }
+          </style>
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">
+              <img src="/images/header-logo.png" />
+            </a>
+          </div>
+        {% else %}
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+              <img src="/images/header-logo.png" />
+            </a>
+          </div>
+          <div class="navbar-collapse collapse navbar-right">
+            <ul class="nav navbar-nav">
+              {% for link in page.navigation %}
+                <li {% if page.url == link.url %}class="active"{% endif %}>
+                  <a href="{{link.pretty_url}}" title="{{link.text}}">
+                    {{link.title}}
+                  </a>
+                </li>
+              {% endfor %}
+              <li><a href="http://icebergist.com">Blog</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        {% endif %}
       </div>
     </div>
 
@@ -97,70 +120,72 @@ navigation:
 
   {{ content }}
 
-  <!-- *****************************************************************************************************************
-   FOOTER
-   ***************************************************************************************************************** -->
-   <div id="footerwrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <h4>About</h4>
-          <div class="hline-w"></div>
-          <p>
-            Orange Iceberg is a small web development consultancy.
-            Our focus is on creating web applications using Ruby and Ruby on Rails.
-          </p>
-          <p>
-            <a href="/contact">Contact us</a> for a free consultation.
-          </p>
-        </div>
-        <div class="col-lg-4">
-          <h4>Socialize</h4>
-          <div class="hline-w"></div>
-          <p>
-            <a href="http://www.linkedin.com/in/slobodankovacevic"><i class="fa fa-linkedin"></i></a>
-            <a href="http://www.facebook.com/thebasti"><i class="fa fa-facebook"></i></a>
-            <a href="http://twitter.com/icebergist"><i class="fa fa-twitter"></i></a>
-            <a href="http://icebergist.com"><i class="fa fa-rss"></i></a>
-            <a href="http://tumblelog.slobodankovacevic.com/"><i class="fa fa-tumblr"></i></a>
-          </p>
-        </div>
-        <div class="col-lg-4">
-          <h4>Contact us</h4>
-          <div class="hline-w"></div>
-          <p>
-            Email:
-            <script type="text/javascript">// <![CDATA[
-              eval(decodeURIComponent('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%5c%22%6d%61%69%6c%74%6f%3a%68%65%6c%6c%6f%40%6f%72%61%6e%67%65%69%63%65%62%65%72%67%2e%63%6f%6d%5c%22%3e%68%65%6c%6c%6f%40%6f%72%61%6e%67%65%69%63%65%62%65%72%67%2e%63%6f%6d%3c%5c%2f%61%3e%27%29%3b'));
-            // ]]&gt;</script>
-          </p>
-          <p>
-            Or if you are old fashioned you can write at:
-          </p>
-          <p>
-            Orange Iceberg Maximus doo<br />
-            Fruškogorska 17a<br/>
-            Novi Sad, 403041<br/>
-            Serbia<br/>
-          </p>
-        </div>
-      </div><!--/row -->
+  {% unless page.hide_footer %}
+    <!-- *****************************************************************************************************************
+     FOOTER
+     ***************************************************************************************************************** -->
+     <div id="footerwrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h4>About</h4>
+            <div class="hline-w"></div>
+            <p>
+              Orange Iceberg is a small web development consultancy.
+              Our focus is on creating web applications using Ruby and Ruby on Rails.
+            </p>
+            <p>
+              <a href="/contact">Contact us</a> for a free consultation.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4>Socialize</h4>
+            <div class="hline-w"></div>
+            <p>
+              <a href="http://www.linkedin.com/in/slobodankovacevic"><i class="fa fa-linkedin"></i></a>
+              <a href="http://www.facebook.com/thebasti"><i class="fa fa-facebook"></i></a>
+              <a href="http://twitter.com/icebergist"><i class="fa fa-twitter"></i></a>
+              <a href="http://icebergist.com"><i class="fa fa-rss"></i></a>
+              <a href="http://tumblelog.slobodankovacevic.com/"><i class="fa fa-tumblr"></i></a>
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4>Contact us</h4>
+            <div class="hline-w"></div>
+            <p>
+              Email:
+              <script type="text/javascript">// <![CDATA[
+                eval(decodeURIComponent('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%5c%22%6d%61%69%6c%74%6f%3a%68%65%6c%6c%6f%40%6f%72%61%6e%67%65%69%63%65%62%65%72%67%2e%63%6f%6d%5c%22%3e%68%65%6c%6c%6f%40%6f%72%61%6e%67%65%69%63%65%62%65%72%67%2e%63%6f%6d%3c%5c%2f%61%3e%27%29%3b'));
+              // ]]&gt;</script>
+            </p>
+            <p>
+              Or if you are old fashioned you can write at:
+            </p>
+            <p>
+              Orange Iceberg Maximus doo<br />
+              Fruškogorska 17a<br/>
+              Novi Sad, 403041<br/>
+              Serbia<br/>
+            </p>
+          </div>
+        </div><!--/row -->
+       </div>
      </div>
-   </div>
-   <div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <a href="/">
-            <img src="/images/oi-logo-footer.png" />
-          </a>
-        </div>
-        <div class="col-lg-9">
-          <p class="text-right text-muted">Orange Iceberg Maximus doo &copy; All Rights Reserved 2015.</p>
-        </div>
-      </div><!--/row -->
-    </div><!--/container -->
-   </div><!--/footerwrap -->
+     <div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <a href="/">
+              <img src="/images/oi-logo-footer.png" />
+            </a>
+          </div>
+          <div class="col-lg-9">
+            <p class="text-right text-muted">Orange Iceberg Maximus doo &copy; All Rights Reserved 2015.</p>
+          </div>
+        </div><!--/row -->
+      </div><!--/container -->
+     </div><!--/footerwrap -->
+   {% endunless %}
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
