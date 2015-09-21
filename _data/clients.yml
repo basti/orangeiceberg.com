@@ -1,3 +1,25 @@
+- name: Thompson Educational Publishing
+  url: http://thompsonbooks.com
+  logo: thompson.png
+  projects:
+    - name: Thompson Learn.
+      url: https://learn.thompsonbooks.com/
+      description: "Online learning environment that provides an enhanced online learning experience for teachers and students."
+      screenshot: thompson.png
+      screenshot_thumb: thompson-thumb.png
+      tags: "Ember, JavaScript, Ruby, Ruby on Rails, API"
+      featured: true
+- name: Dream Holidays Insurance
+  url: http://dreamholidaysinsurance.com/
+  logo: dhi.png
+  projects:
+    - name: Dream Holidays Insurance
+      url: http://app.dreamholidaysinsurance.com/
+      description: "Platform for DHI partners and their agencies to automate selling travel insurance policies."
+      screenshot: dhi.png
+      screenshot_thumb: dhi-thumb.png
+      tags: "Ruby, Ruby on Rails, jQuery"
+      featured: true
 - name: Aligni
   url: https://www.aligni.com/
   logo: aligni.png
@@ -36,7 +58,7 @@
       screenshot: ayurvedafinder.png
       screenshot_thumb: ayurvedafinder-thumb.png
       tags: "Ruby, Ruby on Rails, Web Service, API, jQuery, Multilingual"
-      featured: true
+      featured: false
     - name: Yoga.info
       url: http://www.yoga.info/
       description: "An independent selection of exceptional yoga retreats, yoga holidays and yoga teacher trainings.
@@ -44,7 +66,7 @@
       screenshot: yogainfo.png
       screenshot_thumb: yogainfo-thumb.png
       tags: "Ruby, Ruby on Rails, Web Service, API, jQuery, Multilingual"
-      featured: true
+      featured: false
     - name: Meteorites
       url: http://www.meteorites.org/
       description: "Meteorites.org shows a collection of beautiful meteorites. Powered by a custom-built content management
