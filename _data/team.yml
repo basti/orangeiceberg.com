@@ -25,3 +25,15 @@
   role: Ruby developer
   blurb: Worked in sales in a company called Iceberg. Learned to program in Ruby and started working in Orange Iceberg.
   photo: ivica-300x300.jpg
+
+- name: Dragan Fabian
+  github: https://github.com/draganf
+  role: Ruby developer
+  blurb: Cares about animals, especially birds. That's all we know.
+  photo: dragan-300x300.png
+
+- name: Marijana Molnar
+  github: https://github.com/marijanam
+  role: Ruby developer
+  blurb: Mysterious ex-Java programmer. In process of gathering more information about her.
+  photo: placeholder-300x300.jpg

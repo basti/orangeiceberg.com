@@ -49,11 +49,12 @@ title: About
 </div><!--/container -->
 
 <div class="container mtb">
-  <div class="row centered">
+  <div class="centered">
     <h3 class="mb">MEET OUR TEAM</h3>
 
     {% for member in site.data.team %}
-      <div class="col-lg-3 col-md-3 col-sm-3">
+      {% if forloop.index == 3 %}<div class="row">{% endif %}
+      <div class="col-lg-4 col-md-4 col-sm-4 team-member">
         <div class="he-wrap tpl6">
           <img src="/assets/images/team/{{ member.photo }}" alt="{{ member.name }} - {{ member.role }}">
           <div class="he-view">
@@ -73,9 +74,10 @@ title: About
         </div><!-- he wrap -->
         <h4>{{ member.name }}</h4>
         <h5 class="ctitle">{{ member.role }}</h5>
-        <p>{{ member.blurb }}</p>
+        <p class="team-member-blurb">{{ member.blurb }}</p>
         <div class="hline"></div>
-      </div><!--/col-lg-3 -->
+      </div><!--/col-lg-4 -->
+      {% if forloop.index == 3 %}</div>{% endif %}
     {% endfor %}
 
   </div><!--/row -->
