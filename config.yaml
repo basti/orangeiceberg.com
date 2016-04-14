@@ -1,0 +1,31 @@
+---
+baseurl: http://orangeiceberg.com/
+disablePathToLower: true
+languageCode: en-us
+title: Ruby on Rails development
+description: Orange Iceberg is a small web development consultancy focused on transforming our client's ideas to functional web applications.
+theme: "oi"
+params:
+  name: Orange Iceberg
+  navigation:
+  - pretty_url: /
+    slug: ""
+    title: Home
+    text: What we can do for you
+  - pretty_url: /about
+    slug: about/
+    title: About
+    text: More about us
+  - pretty_url: /portfolio
+    slug: portfolio/
+    title: Portfolio
+    text: Recent work
+  - pretty_url: /contact
+    slug: contact/
+    title: Contact
+    text: Lets talk
+  # - pretty_url: /posao
+  #   slug: posao/
+  #   title: Job
+  #   text: Join us
+...
