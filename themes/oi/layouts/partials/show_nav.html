@@ -1,0 +1,26 @@
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <img src="/images/header-logo.png" />
+          </a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            {{ $url := .Permalink }}
+            {{ $baseurl := .Site.BaseURL }}
+            {{ range .Site.Params.navigation }}
+              {{ $page_url := add $baseurl .slug }}
+              <li {{ if eq $url $page_url }}class="active"{{ end }}>
+                <a href="{{ .pretty_url }}" title="{{ .text }}">
+                  {{ .title }}
+                </a>
+              </li>
+            {{ end }}
+            <li><a href="http://icebergist.com">Blog</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
