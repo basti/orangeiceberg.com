@@ -1,50 +1,584 @@
----
-layout: oi
-title: Portfolio
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Orange Iceberg">
 
-<div id="portfoliowrap">
-  <div class="container">
-    <div class="row centered">
-      <h3>PROJECTS</h3>
-      <h4>These are some of the projects we worked on.</h4>
-      <div class="vertical-align-holder">
-        {% for client in site.data.clients %}
-          {% for project in client.projects %}
-            <div class="container mt">
-              <div class="row">
-                <div class="col-lg-7">
-                  <a href="{{ project.url }}" rel="external">
-                    <img src="/assets/images/portfolio/{{ project.screenshot }}" class="screenshot" alt="{{ project.name }} - {{ project.tags }}">
-                  </a>
-                </div>
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-                <div class="col-lg-5">
-                  <h4>{{ project.name }}</h4>
-                  <div class="hline"></div>
-                  {% if project.date %}
-                    <p><b>Date:</b> {{ project.date }}</p>
-                  {% endif %}
-                  <p>{{ project.description }}</p>
-                  <p><b>Website:</b> <a href="{{ project.url }}" rel="external">{{ project.url }}</a></p>
-                  {% if project.tags %}
-                    <p><b>Tagged:</b> {{ project.tags }}</p>
-                  {% endif %}
-                  <p>
-                    <b>Client:</b>
-                    <a href="{{ client.url }}" rel="external">
-                      <img src="/assets/images/clients/{{ client.logo }}" class="img-responsive center-block associate-logo">
-                    </a>
-                  </p>
-                </div>
+    <title>Portfolio - Orange Iceberg Web Development</title>
 
-              </div><!--/row -->
-            </div><!--/container -->
-            <div class="hline-muted"></div>
-          {% endfor %}
-        {% endfor %}
+    
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    
+    
+
+    <script src="/assets/js/modernizr.min.js"></script>
+
+    
+    <script type="text/javascript" src="/js/external-links.js"></script>
+
+  </head>
+  <body>
+        
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        
+                  <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <img src="/images/header-logo.png" />
+          </a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            
+            
+            
+              
+              <li >
+                <a href="/" title="What we can do for you">
+                  Home
+                </a>
+              </li>
+            
+              
+              <li >
+                <a href="/about" title="More about us">
+                  About
+                </a>
+              </li>
+            
+              
+              <li class="active">
+                <a href="/portfolio" title="Recent work">
+                  Portfolio
+                </a>
+              </li>
+            
+              
+              <li >
+                <a href="/contact" title="Lets talk">
+                  Contact
+                </a>
+              </li>
+            
+            <li><a href="http://icebergist.com">Blog</a></li>
+          </ul>
+        </div>
+
+        
       </div>
+    </div>
 
-    </div><!--/row -->
-  </div><!--/container -->
-</div><!--/cwrap -->
+
+        <div id="titlewrap">
+      <div class="container">
+      <div class="row">
+        <h3>Portfolio</h3>
+      </div>
+      </div> 
+    </div>
+
+
+    <div id="portfoliowrap">
+      <div class="container">
+        <div class="row centered">
+          <h3>PROJECTS</h3>
+          <h4>These are some of the projects we worked on.</h4>
+          <div class="vertical-align-holder">
+            
+              
+              
+                <div class="container mt">
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <a href="https://learn.thompsonbooks.com/" rel="external">
+                        <img src="/assets/images/portfolio/thompson.png" class="screenshot" alt="Thompson Learn. - Ember, JavaScript, Ruby, Ruby on Rails, API">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-5">
+                      <h4>Thompson Learn.</h4>
+                      <div class="hline"></div>
+                      
+                      <p>Online learning environment that provides an enhanced online learning experience for teachers and students.</p>
+                      <p><b>Website:</b> <a href="https://learn.thompsonbooks.com/" rel="external">https://learn.thompsonbooks.com/</a></p>
+                      
+                        <p><b>Tagged:</b> Ember, JavaScript, Ruby, Ruby on Rails, API</p>
+                      
+                      <p>
+                        <b>Client:</b>
+                        <a href="http://thompsonbooks.com" rel="external">
+                          <img src="/assets/images/clients/thompson.png" class="img-responsive center-block associate-logo">
+                        </a>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="hline-muted"></div>
+              
+            
+              
+              
+                <div class="container mt">
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <a href="http://app.dreamholidaysinsurance.com/" rel="external">
+                        <img src="/assets/images/portfolio/dhi.png" class="screenshot" alt="Dream Holidays Insurance - Ruby, Ruby on Rails, jQuery">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-5">
+                      <h4>Dream Holidays Insurance</h4>
+                      <div class="hline"></div>
+                      
+                      <p>Platform for DHI partners and their agencies to automate selling travel insurance policies.</p>
+                      <p><b>Website:</b> <a href="http://app.dreamholidaysinsurance.com/" rel="external">http://app.dreamholidaysinsurance.com/</a></p>
+                      
+                        <p><b>Tagged:</b> Ruby, Ruby on Rails, jQuery</p>
+                      
+                      <p>
+                        <b>Client:</b>
+                        <a href="http://dreamholidaysinsurance.com/" rel="external">
+                          <img src="/assets/images/clients/dhi.png" class="img-responsive center-block associate-logo">
+                        </a>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="hline-muted"></div>
+              
+            
+              
+              
+                <div class="container mt">
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <a href="https://www.aligni.com/" rel="external">
+                        <img src="/assets/images/portfolio/aligni.png" class="screenshot" alt="Aligni - Ruby, Ruby on Rails, API, jQuery">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-5">
+                      <h4>Aligni</h4>
+                      <div class="hline"></div>
+                      
+                      <p>Aligni is cloud-based software for product lifecycle and manufacturing management. As such the app itself is very large with complex data structures. We have been working as a part of Aligni development team to maintain and expand Aligni features.</p>
+                      <p><b>Website:</b> <a href="https://www.aligni.com/" rel="external">https://www.aligni.com/</a></p>
+                      
+                        <p><b>Tagged:</b> Ruby, Ruby on Rails, API, jQuery</p>
+                      
+                      <p>
+                        <b>Client:</b>
+                        <a href="https://www.aligni.com/" rel="external">
+                          <img src="/assets/images/clients/aligni.png" class="img-responsive center-block associate-logo">
+                        </a>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="hline-muted"></div>
+              
+            
+              
+              
+                <div class="container mt">
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <a href="https://pins.opalkelly.com/" rel="external">
+                        <img src="/assets/images/portfolio/opal-kelly-pins.png" class="screenshot" alt="Pins - Ruby on Rails, API, Google Drive, OAuth provider, desktop app integration">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-5">
+                      <h4>Pins</h4>
+                      <div class="hline"></div>
+                      
+                      <p>Pins provides Pin Lists for Opal Kelly products. Each Pin List is interactive, searchable, filterable, and exportable. It provides data for desktop applications used in manufacturing. Also Pins acts as OAuth provider for other services provided by Opal Kelly.</p>
+                      <p><b>Website:</b> <a href="https://pins.opalkelly.com/" rel="external">https://pins.opalkelly.com/</a></p>
+                      
+                        <p><b>Tagged:</b> Ruby on Rails, API, Google Drive, OAuth provider, desktop app integration</p>
+                      
+                      <p>
+                        <b>Client:</b>
+                        <a href="https://www.opalkelly.com/" rel="external">
+                          <img src="/assets/images/clients/opalkelly.png" class="img-responsive center-block associate-logo">
+                        </a>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="hline-muted"></div>
+              
+            
+              
+              
+                <div class="container mt">
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <a href="http://www.ayurvedafinder.com/" rel="external">
+                        <img src="/assets/images/portfolio/ayurvedafinder.png" class="screenshot" alt="Ayurveda Finder - Ruby, Ruby on Rails, Web Service, API, jQuery, Multilingual">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-5">
+                      <h4>Ayurveda Finder</h4>
+                      <div class="hline"></div>
+                      
+                      <p>Ayurveda Finder is a directory of ayurveda retreats, ayurveda holidays and ayurveda teacher trainings. We have built a centralized content management system used by more than one site through a web service.</p>
+                      <p><b>Website:</b> <a href="http://www.ayurvedafinder.com/" rel="external">http://www.ayurvedafinder.com/</a></p>
+                      
+                        <p><b>Tagged:</b> Ruby, Ruby on Rails, Web Service, API, jQuery, Multilingual</p>
+                      
+                      <p>
+                        <b>Client:</b>
+                        <a href="http://www.earth.org/" rel="external">
+                          <img src="/assets/images/clients/earthorg.png" class="img-responsive center-block associate-logo">
+                        </a>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="hline-muted"></div>
+              
+                <div class="container mt">
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <a href="http://www.yoga.info/" rel="external">
+                        <img src="/assets/images/portfolio/yogainfo.png" class="screenshot" alt="Yoga.info - Ruby, Ruby on Rails, Web Service, API, jQuery, Multilingual">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-5">
+                      <h4>Yoga.info</h4>
+                      <div class="hline"></div>
+                      
+                      <p>An independent selection of exceptional yoga retreats, yoga holidays and yoga teacher trainings. We have built a centralized content management system used by more than one site through a web service.</p>
+                      <p><b>Website:</b> <a href="http://www.yoga.info/" rel="external">http://www.yoga.info/</a></p>
+                      
+                        <p><b>Tagged:</b> Ruby, Ruby on Rails, Web Service, API, jQuery, Multilingual</p>
+                      
+                      <p>
+                        <b>Client:</b>
+                        <a href="http://www.earth.org/" rel="external">
+                          <img src="/assets/images/clients/earthorg.png" class="img-responsive center-block associate-logo">
+                        </a>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="hline-muted"></div>
+              
+                <div class="container mt">
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <a href="http://www.meteorites.org/" rel="external">
+                        <img src="/assets/images/portfolio/meteorites.png" class="screenshot" alt="Meteorites - Ruby, Ruby on Rails, jQuery">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-5">
+                      <h4>Meteorites</h4>
+                      <div class="hline"></div>
+                      
+                      <p>Meteorites.org shows a collection of beautiful meteorites. Powered by a custom-built content management system (CMS) built according to specific requirements.</p>
+                      <p><b>Website:</b> <a href="http://www.meteorites.org/" rel="external">http://www.meteorites.org/</a></p>
+                      
+                        <p><b>Tagged:</b> Ruby, Ruby on Rails, jQuery</p>
+                      
+                      <p>
+                        <b>Client:</b>
+                        <a href="http://www.earth.org/" rel="external">
+                          <img src="/assets/images/clients/earthorg.png" class="img-responsive center-block associate-logo">
+                        </a>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="hline-muted"></div>
+              
+            
+              
+              
+                <div class="container mt">
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <a href="http://www.aerosol-forum.com/" rel="external">
+                        <img src="/assets/images/portfolio/oriex-aerosol-forum.png" class="screenshot" alt="Aerosol Forum - Custom CMS, ecommerce, card payment, multilingual">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-5">
+                      <h4>Aerosol Forum</h4>
+                      <div class="hline"></div>
+                      
+                      <p>Custom-build multilingual CMS with conference visitor registration and online payment handling. Used on Aerosol Forum and PCD Congress sites.</p>
+                      <p><b>Website:</b> <a href="http://www.aerosol-forum.com/" rel="external">http://www.aerosol-forum.com/</a></p>
+                      
+                        <p><b>Tagged:</b> Custom CMS, ecommerce, card payment, multilingual</p>
+                      
+                      <p>
+                        <b>Client:</b>
+                        <a href="http://www.oriex.fr/" rel="external">
+                          <img src="/assets/images/clients/oriex.png" class="img-responsive center-block associate-logo">
+                        </a>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="hline-muted"></div>
+              
+                <div class="container mt">
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <a href="http://www.pcd-congress.com/" rel="external">
+                        <img src="/assets/images/portfolio/oriex-pcd.png" class="screenshot" alt="PCD Congress - Custom CMS, ecommerce, card payment, multilingual">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-5">
+                      <h4>PCD Congress</h4>
+                      <div class="hline"></div>
+                      
+                      <p>Custom-build multilingual CMS with conference visitor registration and online payment handling. Used on multiple sites.</p>
+                      <p><b>Website:</b> <a href="http://www.pcd-congress.com/" rel="external">http://www.pcd-congress.com/</a></p>
+                      
+                        <p><b>Tagged:</b> Custom CMS, ecommerce, card payment, multilingual</p>
+                      
+                      <p>
+                        <b>Client:</b>
+                        <a href="http://www.oriex.fr/" rel="external">
+                          <img src="/assets/images/clients/oriex.png" class="img-responsive center-block associate-logo">
+                        </a>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="hline-muted"></div>
+              
+            
+              
+              
+                <div class="container mt">
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <a href="http://opower.com/" rel="external">
+                        <img src="/assets/images/portfolio/reciprocity-opower.png" class="screenshot" alt="Opower - Ruby, Ruby on Rails, Custom CMS, jQuery">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-5">
+                      <h4>Opower</h4>
+                      <div class="hline"></div>
+                      
+                      <p>Maintenance and implementing new features for custom CMS running on Opower.com.</p>
+                      <p><b>Website:</b> <a href="http://opower.com/" rel="external">http://opower.com/</a></p>
+                      
+                        <p><b>Tagged:</b> Ruby, Ruby on Rails, Custom CMS, jQuery</p>
+                      
+                      <p>
+                        <b>Client:</b>
+                        <a href="https://reciprocitylabs.com/" rel="external">
+                          <img src="/assets/images/clients/reciprocity.png" class="img-responsive center-block associate-logo">
+                        </a>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="hline-muted"></div>
+              
+                <div class="container mt">
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <a href="http://www.sonatype.com/" rel="external">
+                        <img src="/assets/images/portfolio/reciprocity-sonatype.png" class="screenshot" alt="Sonatype - Ruby, Ruby on Rails, Refinery CMS">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-5">
+                      <h4>Sonatype</h4>
+                      <div class="hline"></div>
+                      
+                      <p>Used Refinery CMS and custom-built Refinery CMS extensions to create a system tailored according to client&#39;s specification.</p>
+                      <p><b>Website:</b> <a href="http://www.sonatype.com/" rel="external">http://www.sonatype.com/</a></p>
+                      
+                        <p><b>Tagged:</b> Ruby, Ruby on Rails, Refinery CMS</p>
+                      
+                      <p>
+                        <b>Client:</b>
+                        <a href="https://reciprocitylabs.com/" rel="external">
+                          <img src="/assets/images/clients/reciprocity.png" class="img-responsive center-block associate-logo">
+                        </a>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="hline-muted"></div>
+              
+            
+              
+              
+                <div class="container mt">
+                  <div class="row">
+                    <div class="col-lg-7">
+                      <a href="http://bluezeppelin.com/" rel="external">
+                        <img src="/assets/images/portfolio/bluezeppelin.png" class="screenshot" alt="BlueZeppelin - Ruby on Rails, S3, AWS, subscriptions, recurring payments">
+                      </a>
+                    </div>
+
+                    <div class="col-lg-5">
+                      <h4>BlueZeppelin</h4>
+                      <div class="hline"></div>
+                      
+                      <p>Online art galleries that enable artist to display their art. Fully automated system with recurring payments subscription.</p>
+                      <p><b>Website:</b> <a href="http://bluezeppelin.com/" rel="external">http://bluezeppelin.com/</a></p>
+                      
+                        <p><b>Tagged:</b> Ruby on Rails, S3, AWS, subscriptions, recurring payments</p>
+                      
+                      <p>
+                        <b>Client:</b>
+                        <a href="http://bluezeppelin.com/" rel="external">
+                          <img src="/assets/images/clients/bluezeppelin.png" class="img-responsive center-block associate-logo">
+                        </a>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="hline-muted"></div>
+              
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+         <div id="footerwrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h4>About</h4>
+            <div class="hline-w"></div>
+            <p>
+              Orange Iceberg is a small web development consultancy.
+              Our focus is on creating web applications using Ruby and Ruby on Rails.
+            </p>
+            <p>
+              <a href="/contact">Contact us</a> for a free consultation.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4>Socialize</h4>
+            <div class="hline-w"></div>
+            <p>
+              <a href="http://www.linkedin.com/in/slobodankovacevic"><i class="fa fa-linkedin"></i></a>
+              <a href="http://www.facebook.com/thebasti"><i class="fa fa-facebook"></i></a>
+              <a href="http://twitter.com/icebergist"><i class="fa fa-twitter"></i></a>
+              <a href="http://icebergist.com"><i class="fa fa-rss"></i></a>
+              <a href="http://tumblelog.slobodankovacevic.com/"><i class="fa fa-tumblr"></i></a>
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4>Contact us</h4>
+            <div class="hline-w"></div>
+            <p>
+              Email:
+              <script type="text/javascript">
+                eval(decodeURIComponent('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%5c%22%6d%61%69%6c%74%6f%3a%68%65%6c%6c%6f%40%6f%72%61%6e%67%65%69%63%65%62%65%72%67%2e%63%6f%6d%5c%22%3e%68%65%6c%6c%6f%40%6f%72%61%6e%67%65%69%63%65%62%65%72%67%2e%63%6f%6d%3c%5c%2f%61%3e%27%29%3b'));
+              </script>
+            </p>
+            <p>
+              Or if you are old fashioned you can write at:
+            </p>
+            <p>
+              Orange Iceberg Maximus doo<br />
+              Fruškogorska 17a<br/>
+              Novi Sad, 403041<br/>
+              Serbia<br/>
+            </p>
+          </div>
+        </div>
+       </div>
+     </div>
+     <div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <a href="/">
+              <img src="/images/oi-logo-footer.png" />
+            </a>
+          </div>
+          <div class="col-lg-9">
+            <p class="text-right text-muted">Orange Iceberg Maximus doo &copy; All Rights Reserved 2015.</p>
+          </div>
+        </div>
+      </div>
+     </div>
+
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/retina-1.1.0.js"></script>
+    <script src="/assets/js/jquery.hoverdir.js"></script>
+    <script src="/assets/js/jquery.hoverex.min.js"></script>
+    <script src="/assets/js/jquery.prettyPhoto.js"></script>
+    <script src="/assets/js/jquery.isotope.min.js"></script>
+    <script src="/assets/js/custom.js"></script>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-4735545-1");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+
+
+  </body>
+</html>
