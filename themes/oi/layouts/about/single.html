@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "meta.html" . }}
+  </head>
+  <body>
+    {{ partial "header.html" . }}
+
+    {{ partial "title.html" . }}
+
+    <div class="container mtb">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="img-responsive" src="/assets/images/orange-iceberg-on-screen-800x600.jpg" alt="Orange Iceberg web application consultancy">
+        </div>
+
+        <div class="col-lg-6">
+          <h4>More About Orange Iceberg.</h4>
+          <p>
+            Orange Iceberg is a small web development consultancy focused on transforming
+            <a href="#cwrap" title="Clients we worked with and built great Ruby on Rails web applications">our client's</a>
+            ideas to functional web applications.
+          </p>
+          <p>
+            We specialize in building web applications using Ruby and Ruby on Rails.
+            However depending on a project we often assemble and lead a team of various web professionals,
+            with help from our
+            <a href="#awrap" title="People who help us build Ruby on Rails web applications">associates</a>.
+          </p>
+
+          <h4>Why the name Orange Iceberg?</h4>
+          <p>
+            An iceberg is often over 90% underwater with only tip being visible.
+            Most web applications (and software in general) are like that too.
+            There's a pretty interface that makes about 10% of a web app, but
+            underneath it there's still 90% of the app.
+          </p>
+          <p>
+            We make web applications. They are like icebergs in some sense.
+            It just made sense.
+          </p>
+
+          <h4>Do you have another question?</h4>
+          <p>
+            If there's anything you'd like to know about Orange Iceberg or
+            you want to talk to us please don't hesitate to
+            <a title="Contact us if you have more questions or if you want to discuss building a new Ruby on Rails web application" href="/contact">contact us</a>.
+          </p>
+
+          <a title="Contact us if you need a help with Rails application" href="/contact" class="btn btn-theme">Contact us</a>
+          <a title="Some of the Ruby on Rails web applications we worked on" href="/portfolio" class="btn btn-theme">See what we worked on</a>
+        </div>
+      </div><!--/row -->
+    </div><!--/container -->
+
+    <div class="container mtb">
+      <div class="centered">
+        <h3 class="mb">MEET OUR TEAM</h3>
+
+        {{ range $index, $element := .Site.Data.team.team }}
+          {{ if eq $index 2 }}<div class="row">{{ end }}
+          <div class="col-lg-4 col-md-4 col-sm-4 team-member">
+            <div class="he-wrap tpl6">
+              <img src="/assets/images/team/{{ $element.photo }}" alt="{{ $element.name }} - {{ $element.role }}">
+              <div class="he-view">
+                <div class="bg a0" data-animate="fadeIn">
+                  <h3 class="a1" data-animate="fadeInDown">Find me on:</h3>
+                  {{ if $element.github }}
+                    <a href="{{ $element.github }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-github"></i></a>
+                  {{ end }}
+                  {{ if $element.twitter }}
+                    <a href="{{ $element.twitter }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-twitter"></i></a>
+                  {{ end }}
+                  {{ if $element.linkedin }}
+                    <a href="{{ $element.linkedin }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-linkedin"></i></a>
+                  {{ end }}
+                </div><!-- he bg -->
+              </div><!-- he view -->
+            </div><!-- he wrap -->
+            <h4>{{ $element.name }}</h4>
+            <h5 class="ctitle">{{ $element.role }}</h5>
+            <p class="team-member-blurb">{{ $element.blurb }}</p>
+            <div class="hline"></div>
+          </div><!--/col-lg-4 -->
+          {{ if eq $index 2 }}</div>{{ end }}
+        {{ end }}
+
+      </div><!--/row -->
+    </div><!--/container -->
+
+    <div id="cwrap">
+      <div class="container">
+        <div class="row centered">
+          <h3>CLIENTS</h3>
+          <div class="vertical-align-holder">
+            {{ range .Site.Data.clients.clients }}
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <a href="{{ .url }}" rel="external">
+                  <img src="/assets/images/clients/{{ .logo }}" class="img-responsive associate-logo center-block">
+                </a>
+              </div>
+            {{ end }}
+          </div>
+        </div><!--/row -->
+      </div><!--/container -->
+    </div><!--/cwrap -->
+
+    <div id="awrap">
+      <div class="container">
+        <div class="row centered">
+          <h3>FRIENDS & ASSOCIATES</h3>
+          <div class="vertical-align-holder">
+            {{ range .Site.Data.associates.associates }}
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <a href="{{ .url }}" rel="external">
+                  <img src="/assets/images/associates/{{ .logo }}" class="img-responsive associate-logo center-block">
+                </a>
+              </div>
+            {{ end }}
+          </div>
+
+        </div><!--/row -->
+      </div><!--/container -->
+    </div><!--/awrap -->
+
+    {{ partial "footer.html" . }}
+  </body>
+</html>

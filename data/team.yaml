@@ -1,0 +1,42 @@
+team:
+  - name: Slobodan Kovačević
+    github: https://github.com/basti
+    twitter: https://twitter.com/icebergist
+    linkedin: http://www.linkedin.com/in/slobodankovacevic
+    role: Lead developer
+    blurb: Web developer with 15+ years of experience. Currently focused on Ruby and Ruby on Rails.
+    photo: slobodan-300x300.jpg
+
+  - name: Jovica Šuša
+    github: https://github.com/JovicaSusa
+    role: Ruby Developer
+    blurb: Lost his way, worked as web designer. Found Ruby. Every day he learns something new about Ruby and Rails.
+    photo: jovica-300x300.jpg
+
+  - name: Jovana Dačić
+    github: https://github.com/codalicious
+    twitter: https://twitter.com/codalicious_
+    linkedin: https://rs.linkedin.com/pub/jovana-dačić/46/698/973
+    role: Ruby developer
+    blurb: Studied hard to get her MSc in Informatics. Tried doing QA and HTML coding. Decided she likes Ruby programming better.
+    photo: jovana-300x300.jpg
+
+  - name: Ivica Lakatoš
+    github: https://github.com/Ikera
+    twitter: https://twitter.com/Ikera83
+    linkedin: https://rs.linkedin.com/in/ivica-lakatoš-894a2169
+    role: Ruby developer
+    blurb: Worked in sales in a company called Iceberg. Learned to program in Ruby and started working in Orange Iceberg.
+    photo: ivica-300x300.jpg
+
+  - name: Dragan Fabian
+    github: https://github.com/draganf
+    role: Ruby developer
+    blurb: Cares about animals, especially birds. That's all we know.
+    photo: dragan-300x300.png
+
+  - name: Marijana Molnar
+    github: https://github.com/marijanam
+    role: Ruby developer
+    blurb: Mysterious ex-Java programmer. In process of gathering more information about her.
+    photo: placeholder-300x300.jpg

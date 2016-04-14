@@ -1,0 +1,10 @@
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        {{ with .Params.hide_navigation }}
+          {{ partial "hide_nav.html" . }}
+        {{ else }}
+          {{ partial "show_nav.html" . }}
+        {{ end }}
+      </div>
+    </div>
