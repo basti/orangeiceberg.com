@@ -1,0 +1,125 @@
+- name: Thompson Educational Publishing
+  url: http://thompsonbooks.com
+  logo: thompson.png
+  projects:
+    - name: Thompson Learn.
+      url: https://learn.thompsonbooks.com/
+      description: "Online learning environment that provides an enhanced online learning experience for teachers and students."
+      screenshot: thompson.png
+      screenshot_thumb: thompson-thumb.png
+      tags: "Ember, JavaScript, Ruby, Ruby on Rails, API"
+      featured: true
+- name: Dream Holidays Insurance
+  url: http://dreamholidaysinsurance.com/
+  logo: dhi.png
+  projects:
+    - name: Dream Holidays Insurance
+      url: http://app.dreamholidaysinsurance.com/
+      description: "Platform for DHI partners and their agencies to automate selling travel insurance policies."
+      screenshot: dhi.png
+      screenshot_thumb: dhi-thumb.png
+      tags: "Ruby, Ruby on Rails, jQuery"
+      featured: true
+- name: Aligni
+  url: https://www.aligni.com/
+  logo: aligni.png
+  projects:
+    - name: Aligni
+      url: https://www.aligni.com/
+      description: "Aligni is cloud-based software for product lifecycle and manufacturing management.
+        As such the app itself is very large with complex data structures.
+        We have been working as a part of Aligni development team to maintain and expand Aligni features."
+      screenshot: aligni.png
+      screenshot_thumb: aligni-thumb.png
+      tags: "Ruby, Ruby on Rails, API, jQuery"
+      featured: true
+- name: Opal Kelly
+  url: https://www.opalkelly.com/
+  logo: opalkelly.png
+  projects:
+    - name: Pins
+      url: https://pins.opalkelly.com/
+      description: "Pins provides Pin Lists for Opal Kelly products.
+        Each Pin List is interactive, searchable, filterable, and exportable.
+        It provides data for desktop applications used in manufacturing.
+        Also Pins acts as OAuth provider for other services provided by Opal Kelly."
+      screenshot: opal-kelly-pins.png
+      screenshot_thumb: opal-kelly-pins-thumb.png
+      tags: "Ruby on Rails, API, Google Drive, OAuth provider, desktop app integration"
+      featured: true
+- name: Earth.org
+  url: http://www.earth.org/
+  logo: earthorg.png
+  projects:
+    - name: Ayurveda Finder
+      url: http://www.ayurvedafinder.com/
+      description: "Ayurveda Finder is a directory of ayurveda retreats, ayurveda holidays and ayurveda teacher trainings.
+        We have built a centralized content management system used by more than one site through a web service."
+      screenshot: ayurvedafinder.png
+      screenshot_thumb: ayurvedafinder-thumb.png
+      tags: "Ruby, Ruby on Rails, Web Service, API, jQuery, Multilingual"
+      featured: false
+    - name: Yoga.info
+      url: http://www.yoga.info/
+      description: "An independent selection of exceptional yoga retreats, yoga holidays and yoga teacher trainings.
+        We have built a centralized content management system used by more than one site through a web service."
+      screenshot: yogainfo.png
+      screenshot_thumb: yogainfo-thumb.png
+      tags: "Ruby, Ruby on Rails, Web Service, API, jQuery, Multilingual"
+      featured: false
+    - name: Meteorites
+      url: http://www.meteorites.org/
+      description: "Meteorites.org shows a collection of beautiful meteorites. Powered by a custom-built content management
+        system (CMS) built according to specific requirements."
+      screenshot: meteorites.png
+      tags: "Ruby, Ruby on Rails, jQuery"
+- name: Oriex
+  url: http://www.oriex.fr/
+  logo: oriex.png
+  projects:
+    - name: Aerosol Forum
+      url: http://www.aerosol-forum.com/
+      screenshot: oriex-aerosol-forum.png
+      description: "Custom-build multilingual CMS with conference visitor registration and online payment handling.
+        Used on Aerosol Forum and PCD Congress sites."
+      tags: "Custom CMS, ecommerce, card payment, multilingual"
+    - name: PCD Congress
+      url: http://www.pcd-congress.com/
+      screenshot: oriex-pcd.png
+      description: "Custom-build multilingual CMS with conference visitor registration and online payment handling.
+        Used on multiple sites."
+      tags: "Custom CMS, ecommerce, card payment, multilingual"
+    #- name: CFA Aerosol
+    #  url: http://cfa-aerosol.org/
+    #  screenshot: oriex-cfa.png
+    #  description: ""
+    #  tags: ""
+    #- name: Pet's and Vet's Packaging Forum
+    #  url: http://www.petandvet-packaging-forum.com/
+    #  screenshot: oriex-pet-vet.png
+    #  description: ""
+    #  tags: ""
+- name: Reciprocity
+  url: https://reciprocitylabs.com/
+  logo: reciprocity.png
+  projects:
+    - name: Opower
+      url: http://opower.com/
+      screenshot: reciprocity-opower.png
+      description: "Maintenance and implementing new features for custom CMS running on Opower.com."
+      tags: "Ruby, Ruby on Rails, Custom CMS, jQuery"
+    - name: Sonatype
+      url: http://www.sonatype.com/
+      screenshot: reciprocity-sonatype.png
+      description: "Used Refinery CMS and custom-built Refinery CMS extensions to create a system tailored according to client's specification."
+      tags: "Ruby, Ruby on Rails, Refinery CMS"
+- name: Blue Zeppelin
+  url: http://bluezeppelin.com/
+  logo: bluezeppelin.png
+  projects:
+    - name: BlueZeppelin
+      url: http://bluezeppelin.com/
+      screenshot: bluezeppelin.png
+      description: "Online art galleries that enable artist to display their art.
+        Fully automated system with recurring payments subscription."
+      tags: "Ruby on Rails, S3, AWS, subscriptions, recurring payments"

@@ -1,0 +1,50 @@
+---
+layout: oi
+title: Portfolio
+---
+
+<div id="portfoliowrap">
+  <div class="container">
+    <div class="row centered">
+      <h3>PROJECTS</h3>
+      <h4>These are some of the projects we worked on.</h4>
+      <div class="vertical-align-holder">
+        {% for client in site.data.clients %}
+          {% for project in client.projects %}
+            <div class="container mt">
+              <div class="row">
+                <div class="col-lg-7">
+                  <a href="{{ project.url }}" rel="external">
+                    <img src="/assets/images/portfolio/{{ project.screenshot }}" class="screenshot" alt="{{ project.name }} - {{ project.tags }}">
+                  </a>
+                </div>
+
+                <div class="col-lg-5">
+                  <h4>{{ project.name }}</h4>
+                  <div class="hline"></div>
+                  {% if project.date %}
+                    <p><b>Date:</b> {{ project.date }}</p>
+                  {% endif %}
+                  <p>{{ project.description }}</p>
+                  <p><b>Website:</b> <a href="{{ project.url }}" rel="external">{{ project.url }}</a></p>
+                  {% if project.tags %}
+                    <p><b>Tagged:</b> {{ project.tags }}</p>
+                  {% endif %}
+                  <p>
+                    <b>Client:</b>
+                    <a href="{{ client.url }}" rel="external">
+                      <img src="/assets/images/clients/{{ client.logo }}" class="img-responsive center-block associate-logo">
+                    </a>
+                  </p>
+                </div>
+
+              </div><!--/row -->
+            </div><!--/container -->
+            <div class="hline-muted"></div>
+          {% endfor %}
+        {% endfor %}
+      </div>
+
+    </div><!--/row -->
+  </div><!--/container -->
+</div><!--/cwrap -->
