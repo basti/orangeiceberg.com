@@ -1,0 +1,28 @@
+associates:
+- name: Array Studio
+  url: http://www.arraystudio.com/
+  logo: arraystudio.png
+
+- name: MV Develop
+  url: http://mvdevelop.com/
+  logo: mvdevelop.png
+
+- name: Simplified
+  url: http://simplified.me/
+  logo: simplified.png
+
+- name: Clovers
+  url: http://clove.rs/
+  logo: clovers.png
+
+- name: Eemagine
+  url: http://www.eemagine.me/
+  logo: eemagine.png
+
+- name: Pure Cut Design
+  url: http://www.purecutdesign.com/
+  logo: purecutdesign.png
+
+- name: FrogProg
+  url: http://frogprog.com/
+  logo: frogprog.png
