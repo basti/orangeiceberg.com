@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on Rails development</title>
+    <link>http://orangeiceberg.com/</link>
+    <description>Recent content on Ruby on Rails development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Apr 2016 11:15:08 +0200</lastBuildDate>
+    <atom:link href="http://orangeiceberg.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Promo</title>
+      <link>http://orangeiceberg.com/promo/</link>
+      <pubDate>Fri, 15 Apr 2016 11:15:08 +0200</pubDate>
+      
+      <guid>http://orangeiceberg.com/promo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web developer sa iskustvom</title>
+      <link>http://orangeiceberg.com/posao/</link>
+      <pubDate>Wed, 13 Apr 2016 14:43:31 +0200</pubDate>
+      
+      <guid>http://orangeiceberg.com/posao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://orangeiceberg.com/contact/</link>
+      <pubDate>Wed, 13 Apr 2016 13:56:43 +0200</pubDate>
+      
+      <guid>http://orangeiceberg.com/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>http://orangeiceberg.com/portfolio/</link>
+      <pubDate>Wed, 13 Apr 2016 13:45:53 +0200</pubDate>
+      
+      <guid>http://orangeiceberg.com/portfolio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://orangeiceberg.com/about/</link>
+      <pubDate>Wed, 13 Apr 2016 09:19:02 +0200</pubDate>
+      
+      <guid>http://orangeiceberg.com/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
