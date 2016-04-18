@@ -57,23 +57,17 @@ When you pleased with your changes add, commit and push your branch. After merge
 ```
 $ git co master
 $ git pull
-$ rm -rf public
-$
-$ git subtree add --prefix=public git@github.com:orangeiceberg/orangeiceberg.com.git gh-pages --squash
-
-
-First delete content from `public` directory.
-
-```
-$rm -rf public/*
-```
-Note: if you just add content and do not delete any, you do not need to delete `public` directory.
-
-When you run command:
-
-```
+$ rm -rf public/*
 $ hugo
 ```
-Hugo automatically create or fill in directory `public` with all code necessary for deployment.
-Now we need to add that content to `gh-pages` branch.
 
+Hugo automatically create or fill in directory `public` with all code necessary for deployment.
+
+Add, commit and push new changes on master branch.
+
+Now we need to push that content from `public` to `gh-pages` branch.
+
+```
+$ git subtree push --prefix=public git@github.com:orangeiceberg/orangeiceberg.com.git gh-pages
+```
+And that is it.
