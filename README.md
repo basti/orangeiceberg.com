@@ -50,24 +50,12 @@ Under the `themes/oi/layouts` make directory `promo` with file `single.html` in 
 
 Now you can find your page on `http://localhost:1313/promo`.
 
-## Put your page online
+## Deploying changes
 
-When you pleased with your changes add, commit and push your branch. After merge to master:
-
-```
-$ git co master
-$ git pull
-$ rm -rf public/*
-$ hugo
-```
-
-Hugo automatically create or fill in directory `public` with all code necessary for deployment.
-
-Add, commit and push new changes on master branch.
-
-Now we need to push that content from `public` to `gh-pages` branch.
+After your pull request is merged to master:
 
 ```
-$ git subtree push --prefix=public git@github.com:orangeiceberg/orangeiceberg.com.git gh-pages
+$ ./bin/deploy
 ```
-And that is it.
+
+Note that the script will regenerate public dir from scratch. If there are changes to public dir that haven't been committed it will halt deployment and ask you to commit those changes first.

@@ -1,0 +1,34 @@
+#!/bin/bash
+
+has_uncommitted_changes_in_public_dir () {
+  git status | grep -q 'public/'
+}
+
+exit_on_uncommitted_changes () {
+  if has_uncommitted_changes_in_public_dir; then
+    exit_with_error "FAILURE: you have uncommitted changes in public dir. Commit them before deploying."
+  fi
+}
+
+exit_with_error () {
+  echo $1
+  exit 1
+}
+
+exit_on_uncommitted_changes
+
+if git checkout master && git pull; then
+  if rm -rf public/* && hugo; then
+    exit_on_uncommitted_changes
+    if git subtree push --prefix=public git@github.com:orangeiceberg/orangeiceberg.com.git gh-pages; then
+      echo "Changes deployed successfully."
+    else
+      exit_with_error "FAILURE: Failed to do git subtree push."
+    fi
+  else
+    exit_with_error "FAILURE: Failed to remove public dir and generate new one with Hugo."
+  fi
+
+else
+  exit_with_error "FAILURE: Failed to checkout, pull and push latest master branch."
+fi
