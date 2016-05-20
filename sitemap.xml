@@ -3,28 +3,27 @@
   
   <url>
     <loc>http://orangeiceberg.com/</loc>
-    <lastmod>2016-04-13T14:43:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://orangeiceberg.com/posao/</loc>
-    <lastmod>2016-04-13T14:43:31+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://orangeiceberg.com/contact/</loc>
-    <lastmod>2016-04-13T13:56:43+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://orangeiceberg.com/portfolio/</loc>
-    <lastmod>2016-04-13T13:45:53+02:00</lastmod>
+    <loc>http://orangeiceberg.com/</loc>
   </url>
   
   <url>
     <loc>http://orangeiceberg.com/about/</loc>
-    <lastmod>2016-04-13T09:19:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://orangeiceberg.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://orangeiceberg.com/portfolio/</loc>
+  </url>
+  
+  <url>
+    <loc>http://orangeiceberg.com/posao/</loc>
   </url>
   
 </urlset>
