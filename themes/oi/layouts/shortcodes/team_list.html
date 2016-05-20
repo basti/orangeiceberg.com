@@ -1,0 +1,27 @@
+{{ range $index, $element := .Page.Site.Data.team.team }}
+  {{ if eq $index 2 }}<div class="row">{{ end }}
+  <div class="col-lg-4 col-md-4 col-sm-4 team-member">
+    <div class="he-wrap tpl6">
+      <img src="/assets/images/team/{{ $element.photo }}" alt="{{ $element.name }} - {{ $element.role }}">
+      <div class="he-view">
+        <div class="bg a0" data-animate="fadeIn">
+          <h3 class="a1" data-animate="fadeInDown">Find me on:</h3>
+          {{ if $element.github }}
+            <a href="{{ $element.github }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-github"></i></a>
+          {{ end }}
+          {{ if $element.twitter }}
+            <a href="{{ $element.twitter }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-twitter"></i></a>
+          {{ end }}
+          {{ if $element.linkedin }}
+            <a href="{{ $element.linkedin }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-linkedin"></i></a>
+          {{ end }}
+        </div><!-- he bg -->
+      </div><!-- he view -->
+    </div><!-- he wrap -->
+    <h4>{{ $element.name }}</h4>
+    <h5 class="ctitle">{{ $element.role }}</h5>
+    <p class="team-member-blurb">{{ $element.blurb }}</p>
+    <div class="hline"></div>
+  </div><!--/col-lg-4 -->
+  {{ if eq $index 2 }}</div>{{ end }}
+{{ end }}

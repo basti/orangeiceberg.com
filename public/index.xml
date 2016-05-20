@@ -6,42 +6,1077 @@
     <description>Recent content on Ruby on Rails development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Apr 2016 14:43:31 +0200</lastBuildDate>
     <atom:link href="http://orangeiceberg.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Web developer sa iskustvom</title>
-      <link>http://orangeiceberg.com/posao/</link>
-      <pubDate>Wed, 13 Apr 2016 14:43:31 +0200</pubDate>
+      <title></title>
+      <link>http://orangeiceberg.com/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://orangeiceberg.com/posao/</guid>
-      <description></description>
-    </item>
+      <guid>http://orangeiceberg.com/</guid>
+      <description>&lt;div id=&#34;headerwrap&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-lg-10 col-lg-offset-1&#34;&gt;
+        &lt;h3&gt;You have an idea for a web app?&lt;/h3&gt;
+        &lt;h1&gt;Let&#39;s transform your idea into a web application.&lt;/h1&gt;
+        &lt;h5&gt;Planning, building, testing, launching, and maintaining your web application - we are there for you.&lt;/h5&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;&lt;!-- /row --&gt;
+  &lt;/div&gt; &lt;!-- /container --&gt;
+&lt;/div&gt;&lt;!-- /headerwrap --&gt;
+
+&lt;div id=&#34;service&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row centered&#34;&gt;
+      &lt;div class=&#34;col-md-4&#34;&gt;
+        &lt;i class=&#34;fa fa-users&#34;&gt;&lt;/i&gt;
+        &lt;h4&gt;Who we are&lt;/h4&gt;
+        &lt;p&gt;
+          We&#39;re a group of web developers.
+          We write code for the web and make great web apps.
+          Our goal is learn something new everyday to build even better web apps.
+        &lt;/p&gt;
+        &lt;p&gt;&lt;br/&gt;&lt;a href=&#34;http://orangeiceberg.com/about&#34; class=&#34;btn btn-theme&#34;&gt;Meet the team&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-md-4&#34;&gt;
+        &lt;i class=&#34;fa fa-cogs&#34;&gt;&lt;/i&gt;
+        &lt;h4&gt;What we made&lt;/h4&gt;
+        &lt;p&gt;
+          Web apps that we build come in different shapes and sizes.
+          From simple web service to complex ecommerce web app.
+          Over the years that gave us the opportunity to tackle different challenges.
+        &lt;/p&gt;
+        &lt;p&gt;&lt;br/&gt;&lt;a href=&#34;http://orangeiceberg.com/portfolio&#34; class=&#34;btn btn-theme&#34;&gt;Portfolio&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col-md-4&#34;&gt;
+        &lt;i class=&#34;fa fa-diamond&#34;&gt;&lt;/i&gt;
+        &lt;h4&gt;What we specialize in&lt;/h4&gt;
+        &lt;p&gt;
+          We love coding in Ruby.
+          That&#39;s why we specialize in building web apps using Ruby and Ruby on Rails.
+          We love writing about it too.
+          You can read about our experiences on our blog.
+        &lt;/p&gt;
+        &lt;p&gt;&lt;br/&gt;&lt;a class=&#34;btn btn-theme&#34; title=&#34;Icebergist web development blog&#34; href=&#34;http://icebergist.com/&#34;&gt;Our blog&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;!--/container --&gt;
+&lt;/div&gt;&lt;!--/service --&gt;
+
+&lt;div id=&#34;portfoliowrap&#34;&gt;
+  &lt;h3&gt;LATEST PROJECTS&lt;/h3&gt;
+  &lt;div class=&#34;portfolio-centered&#34;&gt;
+    &lt;div class=&#34;recentitems portfolio&#34;&gt;
+      
+  
     
-    <item>
-      <title>Contact</title>
-      <link>http://orangeiceberg.com/contact/</link>
-      <pubDate>Wed, 13 Apr 2016 13:56:43 +0200</pubDate>
-      
-      <guid>http://orangeiceberg.com/contact/</guid>
-      <description></description>
-    </item>
+      &lt;div class=&#34;portfolio-item&#34;&gt;
+        &lt;div class=&#34;he-wrap tpl6&#34;&gt;
+          &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/thompson-thumb.png&#34; alt=&#34;Thompson Learn. - Ember, JavaScript, Ruby, Ruby on Rails, API&#34;&gt;
+          &lt;div class=&#34;he-view&#34;&gt;
+            &lt;div class=&#34;bg a0&#34; data-animate=&#34;fadeIn&#34;&gt;
+              &lt;h3 class=&#34;a1&#34; data-animate=&#34;fadeInDown&#34;&gt;Thompson Learn.&lt;/h3&gt;
+              &lt;a data-rel=&#34;prettyPhoto&#34; href=&#34;http://orangeiceberg.com/assets/images/portfolio/thompson.png&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-search&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+              &lt;a href=&#34;http://orangeiceberg.com/portfolio&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
     
-    <item>
-      <title>Portfolio</title>
-      <link>http://orangeiceberg.com/portfolio/</link>
-      <pubDate>Wed, 13 Apr 2016 13:45:53 +0200</pubDate>
-      
-      <guid>http://orangeiceberg.com/portfolio/</guid>
-      <description></description>
+  
+
+  
+    
+      &lt;div class=&#34;portfolio-item&#34;&gt;
+        &lt;div class=&#34;he-wrap tpl6&#34;&gt;
+          &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/dhi-thumb.png&#34; alt=&#34;Dream Holidays Insurance - Ruby, Ruby on Rails, jQuery&#34;&gt;
+          &lt;div class=&#34;he-view&#34;&gt;
+            &lt;div class=&#34;bg a0&#34; data-animate=&#34;fadeIn&#34;&gt;
+              &lt;h3 class=&#34;a1&#34; data-animate=&#34;fadeInDown&#34;&gt;Dream Holidays Insurance&lt;/h3&gt;
+              &lt;a data-rel=&#34;prettyPhoto&#34; href=&#34;http://orangeiceberg.com/assets/images/portfolio/dhi.png&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-search&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+              &lt;a href=&#34;http://orangeiceberg.com/portfolio&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    
+  
+
+  
+    
+      &lt;div class=&#34;portfolio-item&#34;&gt;
+        &lt;div class=&#34;he-wrap tpl6&#34;&gt;
+          &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/aligni-thumb.png&#34; alt=&#34;Aligni - Ruby, Ruby on Rails, API, jQuery&#34;&gt;
+          &lt;div class=&#34;he-view&#34;&gt;
+            &lt;div class=&#34;bg a0&#34; data-animate=&#34;fadeIn&#34;&gt;
+              &lt;h3 class=&#34;a1&#34; data-animate=&#34;fadeInDown&#34;&gt;Aligni&lt;/h3&gt;
+              &lt;a data-rel=&#34;prettyPhoto&#34; href=&#34;http://orangeiceberg.com/assets/images/portfolio/aligni.png&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-search&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+              &lt;a href=&#34;http://orangeiceberg.com/portfolio&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    
+  
+
+  
+    
+      &lt;div class=&#34;portfolio-item&#34;&gt;
+        &lt;div class=&#34;he-wrap tpl6&#34;&gt;
+          &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/opal-kelly-pins-thumb.png&#34; alt=&#34;Pins - Ruby on Rails, API, Google Drive, OAuth provider, desktop app integration&#34;&gt;
+          &lt;div class=&#34;he-view&#34;&gt;
+            &lt;div class=&#34;bg a0&#34; data-animate=&#34;fadeIn&#34;&gt;
+              &lt;h3 class=&#34;a1&#34; data-animate=&#34;fadeInDown&#34;&gt;Pins&lt;/h3&gt;
+              &lt;a data-rel=&#34;prettyPhoto&#34; href=&#34;http://orangeiceberg.com/assets/images/portfolio/opal-kelly-pins.png&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-search&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+              &lt;a href=&#34;http://orangeiceberg.com/portfolio&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-link&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+
+  
+    
+  
+
+
+    &lt;/div&gt;&lt;!-- portfolio --&gt;
+  &lt;/div&gt;&lt;!-- portfolio container --&gt;
+&lt;/div&gt;&lt;!--/Portfoliowrap --&gt;
+
+&lt;div class=&#34;container mtb&#34;&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;col-lg-5 col-lg-offset-1&#34;&gt;
+      &lt;h4&gt;Here&#39;s what we can do for you!&lt;/h4&gt;
+      &lt;p&gt;
+        We can help you take your web application from an idea to a finished product.
+        Every step of the way you&#39;ll have our support - through planning, building, testing,
+        launching, and then maintaining your web application.
+      &lt;/p&gt;
+      &lt;p&gt;&lt;br/&gt;&lt;a href=&#34;http://orangeiceberg.com/about&#34; class=&#34;btn btn-theme&#34;&gt;More about us&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col-lg-5&#34;&gt;
+      &lt;h4&gt;Interested in free consultation?&lt;/h4&gt;
+      &lt;p&gt;
+        If you&#39;d like to discuss your project, ask for project estimate,
+        inquire about our availability, or you just want to talk,
+        please get in touch and we&#39;ll be happy to respond and help you in any way we can.
+      &lt;/p&gt;
+      &lt;p&gt;&lt;br/&gt;&lt;a href=&#34;http://orangeiceberg.com/contact&#34; class=&#34;btn btn-theme&#34;&gt;Get in touch&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;!--/row --&gt;
+&lt;/div&gt;&lt;!--/container --&gt;
+
+&lt;div id=&#34;cwrap&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row centered&#34;&gt;
+      &lt;h3&gt;CLIENTS&lt;/h3&gt;
+      &lt;div class=&#34;vertical-align-holder&#34;&gt;
+        
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;http://thompsonbooks.com&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/thompson.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;http://dreamholidaysinsurance.com/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/dhi.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;https://www.aligni.com/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/aligni.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;https://www.opalkelly.com/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/opalkelly.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;http://www.earth.org/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/earthorg.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;http://www.oriex.fr/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/oriex.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;https://reciprocitylabs.com/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/reciprocity.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;http://bluezeppelin.com/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/bluezeppelin.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+      &lt;/div&gt;
+    &lt;/div&gt;&lt;!--/row --&gt;
+  &lt;/div&gt;&lt;!--/container --&gt;
+&lt;/div&gt;&lt;!--/cwrap --&gt;
+</description>
     </item>
     
     <item>
       <title>About</title>
       <link>http://orangeiceberg.com/about/</link>
-      <pubDate>Wed, 13 Apr 2016 09:19:02 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://orangeiceberg.com/about/</guid>
+      <description>&lt;div class=&#34;container mtb&#34;&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;col-lg-6&#34;&gt;
+      &lt;img class=&#34;img-responsive&#34; src=&#34;http://orangeiceberg.com/assets/images/orange-iceberg-on-screen-800x600.jpg&#34; alt=&#34;Orange Iceberg web application consultancy&#34;&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;col-lg-6&#34;&gt;
+      &lt;h4&gt;More About Orange Iceberg.&lt;/h4&gt;
+      &lt;p&gt;
+        Orange Iceberg is a small web development consultancy focused on transforming
+        &lt;a href=&#34;#cwrap&#34; title=&#34;Clients we worked with and built great Ruby on Rails web applications&#34;&gt;our client&#39;s&lt;/a&gt;
+        ideas to functional web applications.
+      &lt;/p&gt;
+      &lt;p&gt;
+        We specialize in building web applications using Ruby and Ruby on Rails.
+        However depending on a project we often assemble and lead a team of various web professionals,
+        with help from our
+        &lt;a href=&#34;#awrap&#34; title=&#34;People who help us build Ruby on Rails web applications&#34;&gt;associates&lt;/a&gt;.
+      &lt;/p&gt;
+
+      &lt;h4&gt;Why the name Orange Iceberg?&lt;/h4&gt;
+      &lt;p&gt;
+        An iceberg is often over 90% underwater with only tip being visible.
+        Most web applications (and software in general) are like that too.
+        There&#39;s a pretty interface that makes about 10% of a web app, but
+        underneath it there&#39;s still 90% of the app.
+      &lt;/p&gt;
+      &lt;p&gt;
+        We make web applications. They are like icebergs in some sense.
+        It just made sense.
+      &lt;/p&gt;
+
+      &lt;h4&gt;Do you have another question?&lt;/h4&gt;
+      &lt;p&gt;
+        If there&#39;s anything you&#39;d like to know about Orange Iceberg or
+        you want to talk to us please don&#39;t hesitate to
+        &lt;a title=&#34;Contact us if you have more questions or if you want to discuss building a new Ruby on Rails web application&#34; href=&#34;http://orangeiceberg.com/contact&#34;&gt;contact us&lt;/a&gt;.
+      &lt;/p&gt;
+
+      &lt;a title=&#34;Contact us if you need a help with Rails application&#34; href=&#34;http://orangeiceberg.com/contact&#34; class=&#34;btn btn-theme&#34;&gt;Contact us&lt;/a&gt;
+      &lt;a title=&#34;Some of the Ruby on Rails web applications we worked on&#34; href=&#34;http://orangeiceberg.com/portfolio&#34; class=&#34;btn btn-theme&#34;&gt;See what we worked on&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;!--/row --&gt;
+&lt;/div&gt;&lt;!--/container --&gt;
+
+&lt;div class=&#34;container mtb&#34;&gt;
+  &lt;div class=&#34;centered&#34;&gt;
+    &lt;h3 class=&#34;mb&#34;&gt;MEET OUR TEAM&lt;/h3&gt;
+    
+  
+  &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 team-member&#34;&gt;
+    &lt;div class=&#34;he-wrap tpl6&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/team/slobodan-300x300.jpg&#34; alt=&#34;Slobodan Kovačević - Lead developer&#34;&gt;
+      &lt;div class=&#34;he-view&#34;&gt;
+        &lt;div class=&#34;bg a0&#34; data-animate=&#34;fadeIn&#34;&gt;
+          &lt;h3 class=&#34;a1&#34; data-animate=&#34;fadeInDown&#34;&gt;Find me on:&lt;/h3&gt;
+          
+            &lt;a href=&#34;https://github.com/basti&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+          
+          
+            &lt;a href=&#34;https://twitter.com/thebasti&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-twitter&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+          
+          
+            &lt;a href=&#34;http://www.linkedin.com/in/slobodankovacevic&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-linkedin&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+          
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;h4&gt;Slobodan Kovačević&lt;/h4&gt;
+    &lt;h5 class=&#34;ctitle&#34;&gt;Lead developer&lt;/h5&gt;
+    &lt;p class=&#34;team-member-blurb&#34;&gt;Web developer with 15&amp;#43; years of experience. Currently focused on Ruby and Ruby on Rails.&lt;/p&gt;
+    &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  
+
+  
+  &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 team-member&#34;&gt;
+    &lt;div class=&#34;he-wrap tpl6&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/team/jovica-300x300.jpg&#34; alt=&#34;Jovica Šuša - Ruby Developer&#34;&gt;
+      &lt;div class=&#34;he-view&#34;&gt;
+        &lt;div class=&#34;bg a0&#34; data-animate=&#34;fadeIn&#34;&gt;
+          &lt;h3 class=&#34;a1&#34; data-animate=&#34;fadeInDown&#34;&gt;Find me on:&lt;/h3&gt;
+          
+            &lt;a href=&#34;https://github.com/JovicaSusa&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+          
+          
+          
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;h4&gt;Jovica Šuša&lt;/h4&gt;
+    &lt;h5 class=&#34;ctitle&#34;&gt;Ruby Developer&lt;/h5&gt;
+    &lt;p class=&#34;team-member-blurb&#34;&gt;Lost his way, worked as web designer. Found Ruby. Every day he learns something new about Ruby and Rails.&lt;/p&gt;
+    &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  
+
+  &lt;div class=&#34;row&#34;&gt;
+  &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 team-member&#34;&gt;
+    &lt;div class=&#34;he-wrap tpl6&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/team/jovana-300x300.jpg&#34; alt=&#34;Jovana Dačić - Ruby developer&#34;&gt;
+      &lt;div class=&#34;he-view&#34;&gt;
+        &lt;div class=&#34;bg a0&#34; data-animate=&#34;fadeIn&#34;&gt;
+          &lt;h3 class=&#34;a1&#34; data-animate=&#34;fadeInDown&#34;&gt;Find me on:&lt;/h3&gt;
+          
+            &lt;a href=&#34;https://github.com/codalicious&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+          
+          
+            &lt;a href=&#34;https://twitter.com/codalicious_&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-twitter&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+          
+          
+            &lt;a href=&#34;https://rs.linkedin.com/pub/jovana-da%c4%8di%c4%87/46/698/973&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-linkedin&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+          
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;h4&gt;Jovana Dačić&lt;/h4&gt;
+    &lt;h5 class=&#34;ctitle&#34;&gt;Ruby developer&lt;/h5&gt;
+    &lt;p class=&#34;team-member-blurb&#34;&gt;Studied hard to get her MSc in Informatics. Tried doing QA and HTML coding. Decided she likes Ruby programming better.&lt;/p&gt;
+    &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+
+  
+  &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 team-member&#34;&gt;
+    &lt;div class=&#34;he-wrap tpl6&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/team/ivica-300x300.jpg&#34; alt=&#34;Ivica Lakatoš - Ruby developer&#34;&gt;
+      &lt;div class=&#34;he-view&#34;&gt;
+        &lt;div class=&#34;bg a0&#34; data-animate=&#34;fadeIn&#34;&gt;
+          &lt;h3 class=&#34;a1&#34; data-animate=&#34;fadeInDown&#34;&gt;Find me on:&lt;/h3&gt;
+          
+            &lt;a href=&#34;https://github.com/Ikera&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+          
+          
+            &lt;a href=&#34;https://twitter.com/Ikera83&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-twitter&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+          
+          
+            &lt;a href=&#34;https://rs.linkedin.com/in/ivica-lakato%c5%a1-894a2169&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-linkedin&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+          
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;h4&gt;Ivica Lakatoš&lt;/h4&gt;
+    &lt;h5 class=&#34;ctitle&#34;&gt;Ruby developer&lt;/h5&gt;
+    &lt;p class=&#34;team-member-blurb&#34;&gt;Worked in sales in a company called Iceberg. Learned to program in Ruby and started working in Orange Iceberg.&lt;/p&gt;
+    &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  
+
+  
+  &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 team-member&#34;&gt;
+    &lt;div class=&#34;he-wrap tpl6&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/team/dragan-300x300.png&#34; alt=&#34;Dragan Fabian - Ruby developer&#34;&gt;
+      &lt;div class=&#34;he-view&#34;&gt;
+        &lt;div class=&#34;bg a0&#34; data-animate=&#34;fadeIn&#34;&gt;
+          &lt;h3 class=&#34;a1&#34; data-animate=&#34;fadeInDown&#34;&gt;Find me on:&lt;/h3&gt;
+          
+            &lt;a href=&#34;https://github.com/draganf&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+          
+          
+            &lt;a href=&#34;https://twitter.com/draganfabijan&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-twitter&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+          
+          
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;h4&gt;Dragan Fabian&lt;/h4&gt;
+    &lt;h5 class=&#34;ctitle&#34;&gt;Ruby developer&lt;/h5&gt;
+    &lt;p class=&#34;team-member-blurb&#34;&gt;Cares about animals, especially birds. That&amp;#39;s all we know.&lt;/p&gt;
+    &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  
+
+  
+  &lt;div class=&#34;col-lg-4 col-md-4 col-sm-4 team-member&#34;&gt;
+    &lt;div class=&#34;he-wrap tpl6&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/team/placeholder-300x300.jpg&#34; alt=&#34;Marijana Molnar - Ruby developer&#34;&gt;
+      &lt;div class=&#34;he-view&#34;&gt;
+        &lt;div class=&#34;bg a0&#34; data-animate=&#34;fadeIn&#34;&gt;
+          &lt;h3 class=&#34;a1&#34; data-animate=&#34;fadeInDown&#34;&gt;Find me on:&lt;/h3&gt;
+          
+            &lt;a href=&#34;https://github.com/marijanam&#34; class=&#34;dmbutton a2&#34; data-animate=&#34;fadeInUp&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+          
+          
+          
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;h4&gt;Marijana Molnar&lt;/h4&gt;
+    &lt;h5 class=&#34;ctitle&#34;&gt;Ruby developer&lt;/h5&gt;
+    &lt;p class=&#34;team-member-blurb&#34;&gt;Mysterious ex-Java programmer. In process of gathering more information about her.&lt;/p&gt;
+    &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  
+
+
+  &lt;/div&gt;&lt;!--/row --&gt;
+&lt;/div&gt;&lt;!--/container --&gt;
+
+&lt;div id=&#34;cwrap&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row centered&#34;&gt;
+      &lt;h3&gt;CLIENTS&lt;/h3&gt;
+      &lt;div class=&#34;vertical-align-holder&#34;&gt;
+        
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;http://thompsonbooks.com&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/thompson.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;http://dreamholidaysinsurance.com/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/dhi.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;https://www.aligni.com/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/aligni.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;https://www.opalkelly.com/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/opalkelly.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;http://www.earth.org/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/earthorg.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;http://www.oriex.fr/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/oriex.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;https://reciprocitylabs.com/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/reciprocity.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-6 col-sm-6&#34;&gt;
+    &lt;a href=&#34;http://bluezeppelin.com/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/bluezeppelin.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+      &lt;/div&gt;
+    &lt;/div&gt;&lt;!--/row --&gt;
+  &lt;/div&gt;&lt;!--/container --&gt;
+&lt;/div&gt;&lt;!--/cwrap --&gt;
+
+&lt;div id=&#34;awrap&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row centered&#34;&gt;
+      &lt;h3&gt;FRIENDS &amp; ASSOCIATES&lt;/h3&gt;
+      &lt;div class=&#34;vertical-align-holder&#34;&gt;
+        
+  &lt;div class=&#34;col-lg-3 col-md-3 col-sm-3&#34;&gt;
+    &lt;a href=&#34;http://www.arraystudio.com/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/associates/arraystudio.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-3 col-sm-3&#34;&gt;
+    &lt;a href=&#34;http://mvdevelop.com/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/associates/mvdevelop.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-3 col-sm-3&#34;&gt;
+    &lt;a href=&#34;http://simplified.me/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/associates/simplified.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-3 col-sm-3&#34;&gt;
+    &lt;a href=&#34;http://clove.rs/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/associates/clovers.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-3 col-sm-3&#34;&gt;
+    &lt;a href=&#34;http://www.eemagine.me/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/associates/eemagine.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-3 col-sm-3&#34;&gt;
+    &lt;a href=&#34;http://www.purecutdesign.com/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/associates/purecutdesign.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;col-lg-3 col-md-3 col-sm-3&#34;&gt;
+    &lt;a href=&#34;http://frogprog.com/&#34; rel=&#34;external&#34;&gt;
+      &lt;img src=&#34;http://orangeiceberg.com/assets/images/associates/frogprog.png&#34; class=&#34;img-responsive associate-logo center-block&#34;&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+      &lt;/div&gt;
+
+    &lt;/div&gt;&lt;!--/row --&gt;
+  &lt;/div&gt;&lt;!--/container --&gt;
+&lt;/div&gt;&lt;!--/awrap --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://orangeiceberg.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://orangeiceberg.com/contact/</guid>
+      <description>&lt;div class=&#34;container hidden-xs&#34; id=&#34;map-canvas&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;container mtb&#34;&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;col-lg-8&#34;&gt;
+      &lt;h4&gt;Get In Touch!&lt;/h4&gt;
+      &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+      &lt;p&gt;
+        Whether you want to find out how we can help with your Ruby/Rails project or if you just want to chat with us.
+        &lt;strong&gt;We&#39;d love to hear from you.&lt;/strong&gt;
+      &lt;/p&gt;
+
+      &lt;br/&gt;
+
+      &lt;script type=&#34;text/javascript&#34;&gt;
+        function showConfirmation() {
+          $(&#39;#ss-form&#39;).hide();
+          $(&#39;#ss-form-confirmation&#39;).show();
+        }
+      &lt;/script&gt;
+      &lt;iframe name=&#34;hidden_iframe&#34; id=&#34;hidden_iframe&#34; style=&#34;display:none;&#34;&gt;&lt;/iframe&gt;
+
+      &lt;div id=&#34;ss-form-confirmation&#34; class=&#34;alert alert-success&#34; style=&#34;display:none;&#34;&gt;
+        Thanks! We&#39;ll get back to you.
+      &lt;/div&gt;
+
+      &lt;form action=&#34;https://docs.google.com/forms/d/10LcW-JYWRIEEUV_AGMl1_WQ7oQiGnpDChD9hdowGPjc/formResponse?embedded=true&#34; id=&#34;ss-form&#34; method=&#34;post&#34; name=&#34;ss-form&#34; onsubmit=&#34;showConfirmation();&#34; target=&#34;hidden_iframe&#34;&gt;
+        &lt;div class=&#34;form-group&#34;&gt;
+          &lt;label class=&#34;ss-q-item-label&#34; for=&#34;entry_2143759&#34;&gt;Your Name&lt;/label&gt;
+          &lt;span class=&#34;ss-required-asterisk&#34;&gt;*&lt;/span&gt;&lt;/label&gt;
+          &lt;input class=&#34;form-control ss-q-short&#34; dir=&#34;auto&#34; id=&#34;entry_2143759&#34; name=&#34;entry.2143759&#34; required=&#34;&#34; title=&#34;&#34; type=&#34;text&#34; value=&#34;&#34;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;form-group&#34;&gt;
+          &lt;label class=&#34;ss-q-item-label&#34; for=&#34;entry_2188933&#34;&gt;Email address&lt;/label&gt;
+          &lt;span class=&#34;ss-required-asterisk&#34;&gt;*&lt;/span&gt;&lt;/label&gt;
+          &lt;input class=&#34;form-control ss-q-short&#34; dir=&#34;auto&#34; id=&#34;entry_2188933&#34; name=&#34;entry.2188933&#34; required=&#34;&#34; title=&#34;&#34; type=&#34;text&#34; value=&#34;&#34;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;form-group&#34;&gt;
+          &lt;label class=&#34;ss-q-item-label&#34; for=&#34;entry_2329379&#34;&gt;Company Name&lt;/label&gt;
+          &lt;label class=&#34;ss-q-item-label&#34; for=&#34;entry_2329379&#34;&gt;(if applicable)&lt;/label&gt;
+          &lt;input class=&#34;form-control ss-q-short&#34; dir=&#34;auto&#34; id=&#34;entry_2329379&#34; name=&#34;entry.2329379&#34; title=&#34;&#34; type=&#34;text&#34; value=&#34;&#34;&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;form-group&#34;&gt;
+          &lt;label class=&#34;ss-q-item-label&#34; for=&#34;entry_2876496&#34;&gt;Message&lt;/label&gt;
+          &lt;span class=&#34;ss-required-asterisk&#34;&gt;*&lt;/span&gt;&lt;/label&gt;
+          &lt;textarea class=&#34;form-control ss-q-long&#34; cols=&#34;0&#34; dir=&#34;auto&#34; id=&#34;entry_2876496&#34; name=&#34;entry.2876496&#34; required=&#34;&#34; rows=&#34;8&#34;&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;form-group&#34;&gt;
+          &lt;input name=&#34;draftResponse&#34; type=&#34;hidden&#34; value=&#34;[,,&amp;quot;-5759995820600206320&amp;quot;] &#34;&gt;
+          &lt;input name=&#34;pageHistory&#34; type=&#34;hidden&#34; value=&#34;0&#34;&gt;
+          &lt;input name=&#34;fbzx&#34; type=&#34;hidden&#34; value=&#34;-5759995820600206320&#34;&gt;
+        &lt;/div&gt;
+
+        &lt;input class=&#34;btn btn-theme jfk-button jfk-button-action&#34; id=&#34;ss-submit&#34; name=&#34;submit&#34; type=&#34;submit&#34; value=&#34;Submit&#34;&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;&lt;!--/col-lg-8 --&gt;
+
+    &lt;div id=&#34;contact-info&#34; class=&#34;col-lg-4&#34;&gt;
+      &lt;h4&gt;Contact information&lt;/h4&gt;
+      &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+      &lt;p&gt;
+        &lt;strong&gt;Orange Iceberg Maximus doo&lt;/strong&gt;&lt;br/&gt;
+        Fruškogorska 17a&lt;br/&gt;
+        Novi Sad, 403041&lt;br/&gt;
+        Serbia
+      &lt;/p&gt;
+      &lt;p&gt;
+        Email:
+        &lt;script type=&#34;text/javascript&#34;&gt;eval(decodeURIComponent(&#39;%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%5c%22%6d%61%69%6c%74%6f%3a%68%65%6c%6c%6f%40%6f%72%61%6e%67%65%69%63%65%62%65%72%67%2e%63%6f%6d%5c%22%3e%68%65%6c%6c%6f%40%6f%72%61%6e%67%65%69%63%65%62%65%72%67%2e%63%6f%6d%3c%5c%2f%61%3e%27%29%3b&#39;))&lt;/script&gt;
+        &lt;br/&gt;
+        Tel: +381 63 8449204
+      &lt;/p&gt;
+      &lt;h4&gt;Find us online&lt;/h4&gt;
+      &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+      &lt;p&gt;
+        &lt;a href=&#34;http://www.linkedin.com/in/slobodankovacevic&#34;&gt;&lt;i class=&#34;fa fa-linkedin&#34;&gt;&lt;/i&gt; - LinkedIn&lt;/a&gt;
+        &lt;br/&gt;
+        &lt;a href=&#34;http://www.facebook.com/thebasti&#34;&gt;&lt;i class=&#34;fa fa-facebook&#34;&gt;&lt;/i&gt; - Facebook&lt;/a&gt;
+        &lt;br/&gt;
+        &lt;a href=&#34;http://twitter.com/orangeicbrg&#34;&gt;&lt;i class=&#34;fa fa-twitter&#34;&gt;&lt;/i&gt; - Twitter&lt;/a&gt;
+        &lt;br/&gt;
+        &lt;a href=&#34;http://icebergist.com&#34;&gt;&lt;i class=&#34;fa fa-rss&#34;&gt;&lt;/i&gt; - Icebergist (our blog)&lt;/a&gt;
+        &lt;br/&gt;
+        &lt;a href=&#34;http://tumblelog.slobodankovacevic.com/&#34;&gt;&lt;i class=&#34;fa fa-tumblr&#34;&gt;&lt;/i&gt; - Tumblr&lt;/a&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;!--/row --&gt;
+&lt;/div&gt;&lt;!--/container --&gt;
+
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false&amp;libraries=places&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;http://orangeiceberg.com/assets/js/googlemaps.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>http://orangeiceberg.com/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://orangeiceberg.com/portfolio/</guid>
+      <description>&lt;div id=&#34;portfoliowrap&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row centered&#34;&gt;
+      &lt;h3&gt;PROJECTS&lt;/h3&gt;
+      &lt;h4&gt;These are some of the projects we worked on.&lt;/h4&gt;
+      &lt;div class=&#34;vertical-align-holder&#34;&gt;
+        
+  
+  
+    &lt;div class=&#34;container mt&#34;&gt;
+      &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-lg-7&#34;&gt;
+          &lt;a href=&#34;https://learn.thompsonbooks.com/&#34; rel=&#34;external&#34;&gt;
+            &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/thompson.png&#34; class=&#34;screenshot&#34; alt=&#34;Thompson Learn. - Ember, JavaScript, Ruby, Ruby on Rails, API&#34;&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;col-lg-5&#34;&gt;
+          &lt;h4&gt;Thompson Learn.&lt;/h4&gt;
+          &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+          
+          &lt;p&gt;Online learning environment that provides an enhanced online learning experience for teachers and students.&lt;/p&gt;
+          &lt;p&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=&#34;https://learn.thompsonbooks.com/&#34; rel=&#34;external&#34;&gt;https://learn.thompsonbooks.com/&lt;/a&gt;&lt;/p&gt;
+          
+            &lt;p&gt;&lt;b&gt;Tagged:&lt;/b&gt; Ember, JavaScript, Ruby, Ruby on Rails, API&lt;/p&gt;
+          
+          &lt;p&gt;
+            &lt;b&gt;Client:&lt;/b&gt;
+            &lt;a href=&#34;http://thompsonbooks.com&#34; rel=&#34;external&#34;&gt;
+              &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/thompson.png&#34; class=&#34;img-responsive center-block associate-logo&#34;&gt;
+            &lt;/a&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;hline-muted&#34;&gt;&lt;/div&gt;
+  
+
+  
+  
+    &lt;div class=&#34;container mt&#34;&gt;
+      &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-lg-7&#34;&gt;
+          &lt;a href=&#34;http://app.dreamholidaysinsurance.com/&#34; rel=&#34;external&#34;&gt;
+            &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/dhi.png&#34; class=&#34;screenshot&#34; alt=&#34;Dream Holidays Insurance - Ruby, Ruby on Rails, jQuery&#34;&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;col-lg-5&#34;&gt;
+          &lt;h4&gt;Dream Holidays Insurance&lt;/h4&gt;
+          &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+          
+          &lt;p&gt;Platform for DHI partners and their agencies to automate selling travel insurance policies.&lt;/p&gt;
+          &lt;p&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=&#34;http://app.dreamholidaysinsurance.com/&#34; rel=&#34;external&#34;&gt;http://app.dreamholidaysinsurance.com/&lt;/a&gt;&lt;/p&gt;
+          
+            &lt;p&gt;&lt;b&gt;Tagged:&lt;/b&gt; Ruby, Ruby on Rails, jQuery&lt;/p&gt;
+          
+          &lt;p&gt;
+            &lt;b&gt;Client:&lt;/b&gt;
+            &lt;a href=&#34;http://dreamholidaysinsurance.com/&#34; rel=&#34;external&#34;&gt;
+              &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/dhi.png&#34; class=&#34;img-responsive center-block associate-logo&#34;&gt;
+            &lt;/a&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;hline-muted&#34;&gt;&lt;/div&gt;
+  
+
+  
+  
+    &lt;div class=&#34;container mt&#34;&gt;
+      &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-lg-7&#34;&gt;
+          &lt;a href=&#34;https://www.aligni.com/&#34; rel=&#34;external&#34;&gt;
+            &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/aligni.png&#34; class=&#34;screenshot&#34; alt=&#34;Aligni - Ruby, Ruby on Rails, API, jQuery&#34;&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;col-lg-5&#34;&gt;
+          &lt;h4&gt;Aligni&lt;/h4&gt;
+          &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+          
+          &lt;p&gt;Aligni is cloud-based software for product lifecycle and manufacturing management. As such the app itself is very large with complex data structures. We have been working as a part of Aligni development team to maintain and expand Aligni features.&lt;/p&gt;
+          &lt;p&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=&#34;https://www.aligni.com/&#34; rel=&#34;external&#34;&gt;https://www.aligni.com/&lt;/a&gt;&lt;/p&gt;
+          
+            &lt;p&gt;&lt;b&gt;Tagged:&lt;/b&gt; Ruby, Ruby on Rails, API, jQuery&lt;/p&gt;
+          
+          &lt;p&gt;
+            &lt;b&gt;Client:&lt;/b&gt;
+            &lt;a href=&#34;https://www.aligni.com/&#34; rel=&#34;external&#34;&gt;
+              &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/aligni.png&#34; class=&#34;img-responsive center-block associate-logo&#34;&gt;
+            &lt;/a&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;hline-muted&#34;&gt;&lt;/div&gt;
+  
+
+  
+  
+    &lt;div class=&#34;container mt&#34;&gt;
+      &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-lg-7&#34;&gt;
+          &lt;a href=&#34;https://pins.opalkelly.com/&#34; rel=&#34;external&#34;&gt;
+            &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/opal-kelly-pins.png&#34; class=&#34;screenshot&#34; alt=&#34;Pins - Ruby on Rails, API, Google Drive, OAuth provider, desktop app integration&#34;&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;col-lg-5&#34;&gt;
+          &lt;h4&gt;Pins&lt;/h4&gt;
+          &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+          
+          &lt;p&gt;Pins provides Pin Lists for Opal Kelly products. Each Pin List is interactive, searchable, filterable, and exportable. It provides data for desktop applications used in manufacturing. Also Pins acts as OAuth provider for other services provided by Opal Kelly.&lt;/p&gt;
+          &lt;p&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=&#34;https://pins.opalkelly.com/&#34; rel=&#34;external&#34;&gt;https://pins.opalkelly.com/&lt;/a&gt;&lt;/p&gt;
+          
+            &lt;p&gt;&lt;b&gt;Tagged:&lt;/b&gt; Ruby on Rails, API, Google Drive, OAuth provider, desktop app integration&lt;/p&gt;
+          
+          &lt;p&gt;
+            &lt;b&gt;Client:&lt;/b&gt;
+            &lt;a href=&#34;https://www.opalkelly.com/&#34; rel=&#34;external&#34;&gt;
+              &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/opalkelly.png&#34; class=&#34;img-responsive center-block associate-logo&#34;&gt;
+            &lt;/a&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;hline-muted&#34;&gt;&lt;/div&gt;
+  
+
+  
+  
+    &lt;div class=&#34;container mt&#34;&gt;
+      &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-lg-7&#34;&gt;
+          &lt;a href=&#34;http://www.ayurvedafinder.com/&#34; rel=&#34;external&#34;&gt;
+            &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/ayurvedafinder.png&#34; class=&#34;screenshot&#34; alt=&#34;Ayurveda Finder - Ruby, Ruby on Rails, Web Service, API, jQuery, Multilingual&#34;&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;col-lg-5&#34;&gt;
+          &lt;h4&gt;Ayurveda Finder&lt;/h4&gt;
+          &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+          
+          &lt;p&gt;Ayurveda Finder is a directory of ayurveda retreats, ayurveda holidays and ayurveda teacher trainings. We have built a centralized content management system used by more than one site through a web service.&lt;/p&gt;
+          &lt;p&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=&#34;http://www.ayurvedafinder.com/&#34; rel=&#34;external&#34;&gt;http://www.ayurvedafinder.com/&lt;/a&gt;&lt;/p&gt;
+          
+            &lt;p&gt;&lt;b&gt;Tagged:&lt;/b&gt; Ruby, Ruby on Rails, Web Service, API, jQuery, Multilingual&lt;/p&gt;
+          
+          &lt;p&gt;
+            &lt;b&gt;Client:&lt;/b&gt;
+            &lt;a href=&#34;http://www.earth.org/&#34; rel=&#34;external&#34;&gt;
+              &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/earthorg.png&#34; class=&#34;img-responsive center-block associate-logo&#34;&gt;
+            &lt;/a&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;hline-muted&#34;&gt;&lt;/div&gt;
+  
+    &lt;div class=&#34;container mt&#34;&gt;
+      &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-lg-7&#34;&gt;
+          &lt;a href=&#34;http://www.yoga.info/&#34; rel=&#34;external&#34;&gt;
+            &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/yogainfo.png&#34; class=&#34;screenshot&#34; alt=&#34;Yoga.info - Ruby, Ruby on Rails, Web Service, API, jQuery, Multilingual&#34;&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;col-lg-5&#34;&gt;
+          &lt;h4&gt;Yoga.info&lt;/h4&gt;
+          &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+          
+          &lt;p&gt;An independent selection of exceptional yoga retreats, yoga holidays and yoga teacher trainings. We have built a centralized content management system used by more than one site through a web service.&lt;/p&gt;
+          &lt;p&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=&#34;http://www.yoga.info/&#34; rel=&#34;external&#34;&gt;http://www.yoga.info/&lt;/a&gt;&lt;/p&gt;
+          
+            &lt;p&gt;&lt;b&gt;Tagged:&lt;/b&gt; Ruby, Ruby on Rails, Web Service, API, jQuery, Multilingual&lt;/p&gt;
+          
+          &lt;p&gt;
+            &lt;b&gt;Client:&lt;/b&gt;
+            &lt;a href=&#34;http://www.earth.org/&#34; rel=&#34;external&#34;&gt;
+              &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/earthorg.png&#34; class=&#34;img-responsive center-block associate-logo&#34;&gt;
+            &lt;/a&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;hline-muted&#34;&gt;&lt;/div&gt;
+  
+    &lt;div class=&#34;container mt&#34;&gt;
+      &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-lg-7&#34;&gt;
+          &lt;a href=&#34;http://www.meteorites.org/&#34; rel=&#34;external&#34;&gt;
+            &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/meteorites.png&#34; class=&#34;screenshot&#34; alt=&#34;Meteorites - Ruby, Ruby on Rails, jQuery&#34;&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;col-lg-5&#34;&gt;
+          &lt;h4&gt;Meteorites&lt;/h4&gt;
+          &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+          
+          &lt;p&gt;Meteorites.org shows a collection of beautiful meteorites. Powered by a custom-built content management system (CMS) built according to specific requirements.&lt;/p&gt;
+          &lt;p&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=&#34;http://www.meteorites.org/&#34; rel=&#34;external&#34;&gt;http://www.meteorites.org/&lt;/a&gt;&lt;/p&gt;
+          
+            &lt;p&gt;&lt;b&gt;Tagged:&lt;/b&gt; Ruby, Ruby on Rails, jQuery&lt;/p&gt;
+          
+          &lt;p&gt;
+            &lt;b&gt;Client:&lt;/b&gt;
+            &lt;a href=&#34;http://www.earth.org/&#34; rel=&#34;external&#34;&gt;
+              &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/earthorg.png&#34; class=&#34;img-responsive center-block associate-logo&#34;&gt;
+            &lt;/a&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;hline-muted&#34;&gt;&lt;/div&gt;
+  
+
+  
+  
+    &lt;div class=&#34;container mt&#34;&gt;
+      &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-lg-7&#34;&gt;
+          &lt;a href=&#34;http://www.aerosol-forum.com/&#34; rel=&#34;external&#34;&gt;
+            &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/oriex-aerosol-forum.png&#34; class=&#34;screenshot&#34; alt=&#34;Aerosol Forum - Custom CMS, ecommerce, card payment, multilingual&#34;&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;col-lg-5&#34;&gt;
+          &lt;h4&gt;Aerosol Forum&lt;/h4&gt;
+          &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+          
+          &lt;p&gt;Custom-build multilingual CMS with conference visitor registration and online payment handling. Used on Aerosol Forum and PCD Congress sites.&lt;/p&gt;
+          &lt;p&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=&#34;http://www.aerosol-forum.com/&#34; rel=&#34;external&#34;&gt;http://www.aerosol-forum.com/&lt;/a&gt;&lt;/p&gt;
+          
+            &lt;p&gt;&lt;b&gt;Tagged:&lt;/b&gt; Custom CMS, ecommerce, card payment, multilingual&lt;/p&gt;
+          
+          &lt;p&gt;
+            &lt;b&gt;Client:&lt;/b&gt;
+            &lt;a href=&#34;http://www.oriex.fr/&#34; rel=&#34;external&#34;&gt;
+              &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/oriex.png&#34; class=&#34;img-responsive center-block associate-logo&#34;&gt;
+            &lt;/a&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;hline-muted&#34;&gt;&lt;/div&gt;
+  
+    &lt;div class=&#34;container mt&#34;&gt;
+      &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-lg-7&#34;&gt;
+          &lt;a href=&#34;http://www.pcd-congress.com/&#34; rel=&#34;external&#34;&gt;
+            &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/oriex-pcd.png&#34; class=&#34;screenshot&#34; alt=&#34;PCD Congress - Custom CMS, ecommerce, card payment, multilingual&#34;&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;col-lg-5&#34;&gt;
+          &lt;h4&gt;PCD Congress&lt;/h4&gt;
+          &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+          
+          &lt;p&gt;Custom-build multilingual CMS with conference visitor registration and online payment handling. Used on multiple sites.&lt;/p&gt;
+          &lt;p&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=&#34;http://www.pcd-congress.com/&#34; rel=&#34;external&#34;&gt;http://www.pcd-congress.com/&lt;/a&gt;&lt;/p&gt;
+          
+            &lt;p&gt;&lt;b&gt;Tagged:&lt;/b&gt; Custom CMS, ecommerce, card payment, multilingual&lt;/p&gt;
+          
+          &lt;p&gt;
+            &lt;b&gt;Client:&lt;/b&gt;
+            &lt;a href=&#34;http://www.oriex.fr/&#34; rel=&#34;external&#34;&gt;
+              &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/oriex.png&#34; class=&#34;img-responsive center-block associate-logo&#34;&gt;
+            &lt;/a&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;hline-muted&#34;&gt;&lt;/div&gt;
+  
+
+  
+  
+    &lt;div class=&#34;container mt&#34;&gt;
+      &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-lg-7&#34;&gt;
+          &lt;a href=&#34;http://opower.com/&#34; rel=&#34;external&#34;&gt;
+            &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/reciprocity-opower.png&#34; class=&#34;screenshot&#34; alt=&#34;Opower - Ruby, Ruby on Rails, Custom CMS, jQuery&#34;&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;col-lg-5&#34;&gt;
+          &lt;h4&gt;Opower&lt;/h4&gt;
+          &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+          
+          &lt;p&gt;Maintenance and implementing new features for custom CMS running on Opower.com.&lt;/p&gt;
+          &lt;p&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=&#34;http://opower.com/&#34; rel=&#34;external&#34;&gt;http://opower.com/&lt;/a&gt;&lt;/p&gt;
+          
+            &lt;p&gt;&lt;b&gt;Tagged:&lt;/b&gt; Ruby, Ruby on Rails, Custom CMS, jQuery&lt;/p&gt;
+          
+          &lt;p&gt;
+            &lt;b&gt;Client:&lt;/b&gt;
+            &lt;a href=&#34;https://reciprocitylabs.com/&#34; rel=&#34;external&#34;&gt;
+              &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/reciprocity.png&#34; class=&#34;img-responsive center-block associate-logo&#34;&gt;
+            &lt;/a&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;hline-muted&#34;&gt;&lt;/div&gt;
+  
+    &lt;div class=&#34;container mt&#34;&gt;
+      &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-lg-7&#34;&gt;
+          &lt;a href=&#34;http://www.sonatype.com/&#34; rel=&#34;external&#34;&gt;
+            &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/reciprocity-sonatype.png&#34; class=&#34;screenshot&#34; alt=&#34;Sonatype - Ruby, Ruby on Rails, Refinery CMS&#34;&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;col-lg-5&#34;&gt;
+          &lt;h4&gt;Sonatype&lt;/h4&gt;
+          &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+          
+          &lt;p&gt;Used Refinery CMS and custom-built Refinery CMS extensions to create a system tailored according to client&amp;#39;s specification.&lt;/p&gt;
+          &lt;p&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=&#34;http://www.sonatype.com/&#34; rel=&#34;external&#34;&gt;http://www.sonatype.com/&lt;/a&gt;&lt;/p&gt;
+          
+            &lt;p&gt;&lt;b&gt;Tagged:&lt;/b&gt; Ruby, Ruby on Rails, Refinery CMS&lt;/p&gt;
+          
+          &lt;p&gt;
+            &lt;b&gt;Client:&lt;/b&gt;
+            &lt;a href=&#34;https://reciprocitylabs.com/&#34; rel=&#34;external&#34;&gt;
+              &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/reciprocity.png&#34; class=&#34;img-responsive center-block associate-logo&#34;&gt;
+            &lt;/a&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;hline-muted&#34;&gt;&lt;/div&gt;
+  
+
+  
+  
+    &lt;div class=&#34;container mt&#34;&gt;
+      &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-lg-7&#34;&gt;
+          &lt;a href=&#34;http://bluezeppelin.com/&#34; rel=&#34;external&#34;&gt;
+            &lt;img src=&#34;http://orangeiceberg.com/assets/images/portfolio/bluezeppelin.png&#34; class=&#34;screenshot&#34; alt=&#34;BlueZeppelin - Ruby on Rails, S3, AWS, subscriptions, recurring payments&#34;&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&#34;col-lg-5&#34;&gt;
+          &lt;h4&gt;BlueZeppelin&lt;/h4&gt;
+          &lt;div class=&#34;hline&#34;&gt;&lt;/div&gt;
+          
+          &lt;p&gt;Online art galleries that enable artist to display their art. Fully automated system with recurring payments subscription.&lt;/p&gt;
+          &lt;p&gt;&lt;b&gt;Website:&lt;/b&gt; &lt;a href=&#34;http://bluezeppelin.com/&#34; rel=&#34;external&#34;&gt;http://bluezeppelin.com/&lt;/a&gt;&lt;/p&gt;
+          
+            &lt;p&gt;&lt;b&gt;Tagged:&lt;/b&gt; Ruby on Rails, S3, AWS, subscriptions, recurring payments&lt;/p&gt;
+          
+          &lt;p&gt;
+            &lt;b&gt;Client:&lt;/b&gt;
+            &lt;a href=&#34;http://bluezeppelin.com/&#34; rel=&#34;external&#34;&gt;
+              &lt;img src=&#34;http://orangeiceberg.com/assets/images/clients/bluezeppelin.png&#34; class=&#34;img-responsive center-block associate-logo&#34;&gt;
+            &lt;/a&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;hline-muted&#34;&gt;&lt;/div&gt;
+  
+
+
+      &lt;/div&gt;
+
+    &lt;/div&gt;&lt;!--/row --&gt;
+  &lt;/div&gt;&lt;!--/container --&gt;
+&lt;/div&gt;&lt;!--/cwrap --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trenutno nema otvorenih pozicija</title>
+      <link>http://orangeiceberg.com/posao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://orangeiceberg.com/posao/</guid>
       <description></description>
     </item>
     

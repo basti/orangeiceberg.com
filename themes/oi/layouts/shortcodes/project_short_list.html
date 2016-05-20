@@ -1,0 +1,18 @@
+{{ range .Page.Site.Data.clients.clients }}
+  {{ range .projects }}
+    {{ if .featured }}
+      <div class="portfolio-item">
+        <div class="he-wrap tpl6">
+          <img src="/assets/images/portfolio/{{ .screenshot_thumb }}" alt="{{ .name }} - {{ .tags }}">
+          <div class="he-view">
+            <div class="bg a0" data-animate="fadeIn">
+              <h3 class="a1" data-animate="fadeInDown">{{ .name }}</h3>
+              <a data-rel="prettyPhoto" href="/assets/images/portfolio/{{ .screenshot }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+              <a href="/portfolio" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+            </div><!-- he bg -->
+          </div><!-- he view -->
+        </div><!-- he wrap -->
+      </div><!-- end col-12 -->
+    {{ end }}
+  {{ end }}
+{{ end }}

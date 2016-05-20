@@ -1,0 +1,7 @@
+{{ range .Page.Site.Data.clients.clients }}
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <a href="{{ .url }}" rel="external">
+      <img src="/assets/images/clients/{{ .logo }}" class="img-responsive associate-logo center-block">
+    </a>
+  </div>
+{{ end }}

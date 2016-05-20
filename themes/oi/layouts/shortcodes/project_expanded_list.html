@@ -1,0 +1,35 @@
+{{ range .Page.Site.Data.clients.clients }}
+  {{ $client := .}}
+  {{ range $client.projects }}
+    <div class="container mt">
+      <div class="row">
+        <div class="col-lg-7">
+          <a href="{{ .url }}" rel="external">
+            <img src="/assets/images/portfolio/{{ .screenshot }}" class="screenshot" alt="{{ .name }} - {{ .tags }}">
+          </a>
+        </div>
+
+        <div class="col-lg-5">
+          <h4>{{ .name }}</h4>
+          <div class="hline"></div>
+          {{ if .date }}
+            <p><b>Date:</b> {{ .date }}</p>
+          {{ end }}
+          <p>{{ .description }}</p>
+          <p><b>Website:</b> <a href="{{ .url }}" rel="external">{{ .url }}</a></p>
+          {{ if .tags }}
+            <p><b>Tagged:</b> {{ .tags }}</p>
+          {{ end }}
+          <p>
+            <b>Client:</b>
+            <a href="{{ $client.url }}" rel="external">
+              <img src="/assets/images/clients/{{ $client.logo }}" class="img-responsive center-block associate-logo">
+            </a>
+          </p>
+        </div>
+
+      </div><!--/row -->
+    </div><!--/container -->
+    <div class="hline-muted"></div>
+  {{ end }}
+{{ end }}
