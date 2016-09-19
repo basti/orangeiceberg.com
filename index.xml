@@ -591,53 +591,11 @@
         &lt;strong&gt;We&#39;d love to hear from you.&lt;/strong&gt;
       &lt;/p&gt;
 
-      &lt;br/&gt;
-
-      &lt;script type=&#34;text/javascript&#34;&gt;
-        function showConfirmation() {
-          $(&#39;#ss-form&#39;).hide();
-          $(&#39;#ss-form-confirmation&#39;).show();
-        }
-      &lt;/script&gt;
-      &lt;iframe name=&#34;hidden_iframe&#34; id=&#34;hidden_iframe&#34; style=&#34;display:none;&#34;&gt;&lt;/iframe&gt;
-
-      &lt;div id=&#34;ss-form-confirmation&#34; class=&#34;alert alert-success&#34; style=&#34;display:none;&#34;&gt;
-        Thanks! We&#39;ll get back to you.
-      &lt;/div&gt;
-
-      &lt;form action=&#34;https://docs.google.com/forms/d/10LcW-JYWRIEEUV_AGMl1_WQ7oQiGnpDChD9hdowGPjc/formResponse?embedded=true&#34; id=&#34;ss-form&#34; method=&#34;post&#34; name=&#34;ss-form&#34; onsubmit=&#34;showConfirmation();&#34; target=&#34;hidden_iframe&#34;&gt;
-        &lt;div class=&#34;form-group&#34;&gt;
-          &lt;label class=&#34;ss-q-item-label&#34; for=&#34;entry_2143759&#34;&gt;Your Name&lt;/label&gt;
-          &lt;span class=&#34;ss-required-asterisk&#34;&gt;*&lt;/span&gt;&lt;/label&gt;
-          &lt;input class=&#34;form-control ss-q-short&#34; dir=&#34;auto&#34; id=&#34;entry_2143759&#34; name=&#34;entry.2143759&#34; required=&#34;&#34; title=&#34;&#34; type=&#34;text&#34; value=&#34;&#34;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&#34;form-group&#34;&gt;
-          &lt;label class=&#34;ss-q-item-label&#34; for=&#34;entry_2188933&#34;&gt;Email address&lt;/label&gt;
-          &lt;span class=&#34;ss-required-asterisk&#34;&gt;*&lt;/span&gt;&lt;/label&gt;
-          &lt;input class=&#34;form-control ss-q-short&#34; dir=&#34;auto&#34; id=&#34;entry_2188933&#34; name=&#34;entry.2188933&#34; required=&#34;&#34; title=&#34;&#34; type=&#34;text&#34; value=&#34;&#34;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&#34;form-group&#34;&gt;
-          &lt;label class=&#34;ss-q-item-label&#34; for=&#34;entry_2329379&#34;&gt;Company Name&lt;/label&gt;
-          &lt;label class=&#34;ss-q-item-label&#34; for=&#34;entry_2329379&#34;&gt;(if applicable)&lt;/label&gt;
-          &lt;input class=&#34;form-control ss-q-short&#34; dir=&#34;auto&#34; id=&#34;entry_2329379&#34; name=&#34;entry.2329379&#34; title=&#34;&#34; type=&#34;text&#34; value=&#34;&#34;&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&#34;form-group&#34;&gt;
-          &lt;label class=&#34;ss-q-item-label&#34; for=&#34;entry_2876496&#34;&gt;Message&lt;/label&gt;
-          &lt;span class=&#34;ss-required-asterisk&#34;&gt;*&lt;/span&gt;&lt;/label&gt;
-          &lt;textarea class=&#34;form-control ss-q-long&#34; cols=&#34;0&#34; dir=&#34;auto&#34; id=&#34;entry_2876496&#34; name=&#34;entry.2876496&#34; required=&#34;&#34; rows=&#34;8&#34;&gt;&lt;/textarea&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&#34;form-group&#34;&gt;
-          &lt;input name=&#34;draftResponse&#34; type=&#34;hidden&#34; value=&#34;[,,&amp;quot;-5759995820600206320&amp;quot;] &#34;&gt;
-          &lt;input name=&#34;pageHistory&#34; type=&#34;hidden&#34; value=&#34;0&#34;&gt;
-          &lt;input name=&#34;fbzx&#34; type=&#34;hidden&#34; value=&#34;-5759995820600206320&#34;&gt;
-        &lt;/div&gt;
-
-        &lt;input class=&#34;btn btn-theme jfk-button jfk-button-action&#34; id=&#34;ss-submit&#34; name=&#34;submit&#34; type=&#34;submit&#34; value=&#34;Submit&#34;&gt;
-      &lt;/form&gt;
+      &lt;p&gt;
+        Drop us a line to
+        &lt;script type=&#34;text/javascript&#34;&gt;eval(decodeURIComponent(&#39;%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%5c%22%6d%61%69%6c%74%6f%3a%68%65%6c%6c%6f%40%6f%72%61%6e%67%65%69%63%65%62%65%72%67%2e%63%6f%6d%5c%22%3e%68%65%6c%6c%6f%40%6f%72%61%6e%67%65%69%63%65%62%65%72%67%2e%63%6f%6d%3c%5c%2f%61%3e%27%29%3b&#39;))&lt;/script&gt;
+        and we&#39;ll get back to you as soon as possible.
+      &lt;/p&gt;
     &lt;/div&gt;&lt;!--/col-lg-8 --&gt;
 
     &lt;div id=&#34;contact-info&#34; class=&#34;col-lg-4&#34;&gt;
@@ -666,7 +624,7 @@
         &lt;br/&gt;
         &lt;a href=&#34;http://icebergist.com&#34;&gt;&lt;i class=&#34;fa fa-rss&#34;&gt;&lt;/i&gt; - Icebergist (our blog)&lt;/a&gt;
         &lt;br/&gt;
-        &lt;a href=&#34;http://tumblelog.slobodankovacevic.com/&#34;&gt;&lt;i class=&#34;fa fa-tumblr&#34;&gt;&lt;/i&gt; - Tumblr&lt;/a&gt;
+        &lt;a href=&#34;https://github.com/orangeiceberg/&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt; - Github&lt;/a&gt;
       &lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;&lt;!--/row --&gt;
