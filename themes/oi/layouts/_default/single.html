@@ -1,15 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+{{ if .Params.redirect_to }}
+  <html>
   <head>
-    {{ partial "meta.html" . }}
+    <meta http-equiv="refresh" content="0; url={{ .Params.redirect_to }}">
+    <link rel="canonical" href="{{ .Params.redirect_to }}" />
   </head>
   <body>
-    {{ partial "header.html" . }}
-
-    {{ partial "title.html" . }}
-
-    {{ .Content }}
-
-    {{ partial "footer.html" . }}
+    <p>
+      Orange Iceberg is now part of AxiomQ Ventures.
+    </p>
+    <p>
+      You'll be redirected soon to <a href="{{ .Params.redirect_to }}">{{ .Params.redirect_to }}</a>
+    </p>
   </body>
-</html>
+  </html>
+{{ else }}
+  <html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=https://www.axiomq.com">
+    <link rel="canonical" href="https://www.axiomq.com" />
+  </head>
+  <body>
+    <p>
+      Orange Iceberg is now part of AxiomQ Ventures.
+    </p>
+    <p>
+      You'll be redirected soon to <a href="{{ .Params.redirect_to }}">https://www.axiomq.com</a>
+    </p>
+  </body>
+  </html>
+{{ end }}
